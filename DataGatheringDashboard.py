@@ -412,7 +412,7 @@ def main():
         
         with col1:
             if st.button("Salva ricerca nel log"):
-                log_search()
+                save_search_to_log(st.session_state.search_details)
             
             if st.session_state.log_saved:
                 st.success("Ricerca salvata nel log con successo!")
