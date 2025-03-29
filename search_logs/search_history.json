@@ -1,0 +1,354 @@
+[
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:05:08"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:05:12"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:06:20"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:06:59"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:07:06"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:07:19"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:07:21"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:10:11"
+    },
+    {
+        "query_string": "sourcecountry:UK &startdatetime=20250304000000&enddatetime=20250311000000&maxrecords=250",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-04",
+        "end_date": "2025-03-11",
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:10:13"
+    },
+    {
+        "query_string": "sourcecountry:UK &timespan=12h&maxrecords=250",
+        "filter_method": "Timespan",
+        "timespan": "12h",
+        "start_date": null,
+        "end_date": null,
+        "keywords": [],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 11:10:23"
+    },
+    {
+        "query_string": "\"gilts\" sourcecountry:UK &timespan=1m&maxrecords=250",
+        "filter_method": "Timespan",
+        "timespan": "1m",
+        "start_date": null,
+        "end_date": null,
+        "keywords": [
+            "gilts"
+        ],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 51,
+        "timestamp": "2025-03-11 11:15:48"
+    },
+    {
+        "query_string": "(covid OR vaccini) (sourcecountry:UK OR sourcecountry:IT) theme:MEDICAL repeat3:\"error\" &timespan=6m&maxrecords=248",
+        "filter_method": "Timespan",
+        "timespan": "6m",
+        "start_date": null,
+        "end_date": null,
+        "keywords": [
+            "covid",
+            "vaccini"
+        ],
+        "countries": [
+            "UK",
+            "IT"
+        ],
+        "themes": [
+            "MEDICAL"
+        ],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": "error"
+        },
+        "num_records": 248,
+        "results_count": 4,
+        "timestamp": "2025-03-11 15:12:59"
+    },
+    {
+        "query_string": "(USA OR trump) sourcecountry:UK &timespan=3w&maxrecords=250",
+        "filter_method": "Timespan",
+        "timespan": "3w",
+        "start_date": null,
+        "end_date": null,
+        "keywords": [
+            "USA",
+            "trump"
+        ],
+        "countries": [
+            "UK"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 250,
+        "timestamp": "2025-03-11 15:47:44"
+    },
+    {
+        "query_string": "sourcecountry:IT &startdatetime=20250306000000&enddatetime=20250313000000&maxrecords=250&tone=> -25&toneabs=&sort=datedesc&mode=timelinesourcecountry",
+        "filter_method": "Intervallo di Date",
+        "timespan": null,
+        "start_date": "2025-03-06",
+        "end_date": "2025-03-13",
+        "domain": [],
+        "keywords": [],
+        "countries": [
+            "IT"
+        ],
+        "themes": [],
+        "near_settings": {
+            "distance": 5,
+            "word1": "",
+            "word2": ""
+        },
+        "repeat_settings": {
+            "count": 3,
+            "word": ""
+        },
+        "num_records": 250,
+        "results_count": 167,
+        "tone": "> -25",
+        "toneabs": "",
+        "mode": "timelinesourcecountry",
+        "sort": "datedesc",
+        "timestamp": "2025-03-13 15:15:59"
+    }
+]

@@ -1,0 +1,267 @@
+{
+    "hateSpeechOffensiveLanguage": [
+      {
+        "technique": "Use of Formal Derogatory Epithets",
+        "description": "Employing evaluative and critical terms in a moderate form to highlight alleged incompetence or lack of professionalism, while avoiding vulgar expressions.",
+        "keywords": ["incompetent", "unqualified", "inept", "ill-prepared"],
+        "effect": "Highlight deficiencies in a structured and authoritative manner.",
+        "example": [
+          "An article describing a political figure as 'inept' and 'ill-prepared' without citing concrete evidence, thereby implying incompetence through formal language."
+        ]
+      },
+      {
+        "technique": "Generalization Applied to Specific Groups",
+        "description": "Assigning negative characteristics to entire groups based on generalizations that, although not overtly offensive, reinforce stereotypes.",
+        "keywords": ["non-cooperative", "troublesome", "regressive", "isolated"],
+        "effect": "Reinforce biases and strengthen polarizing narratives.",
+        "example": [
+          "A piece that claims 'certain segments of society are inherently resistant to progress' without substantiating the claim with data."
+        ]
+      },
+      {
+        "technique": "Use of Softened Stereotypical Terms",
+        "description": "Using expressions that subtly reference negative stereotypes about minorities without resorting to explicitly offensive words.",
+        "keywords": ["obstacle", "barrier", "challenge", "difficulty"],
+        "effect": "Encourage a negative perception through measured language.",
+        "example": [
+          "An article describing a minority community as 'a challenge for social integration' without providing detailed evidence."
+        ]
+      },
+      {
+        "technique": "Concern Rhetoric",
+        "description": "Using alarming language to emphasize perceived risks and threats, while refraining from overtly derogatory terms.",
+        "keywords": ["serious threat", "potential danger", "major risk"],
+        "effect": "Generate a sense of urgency and justify corrective actions.",
+        "example": [
+          "A report warning that current trends could lead to a 'major risk' to public safety, despite lacking robust data."
+        ]
+      },
+      {
+        "technique": "Selective Quoting and Implicit Assumptions",
+        "description": "Presenting partial data and quotations to support a critical narrative by omitting the full context.",
+        "keywords": ["selective citation", "partial evidence", "cherry-picked data"],
+        "effect": "Legitimize the discourse through authoritative but partial references.",
+        "example": [
+          "An article that quotes only portions of a study that support its argument, neglecting the complete findings."
+        ]
+      }
+    ],
+    "polarization": [
+      {
+        "technique": "Absolutist Statements",
+        "description": "Using categorical and unambiguous expressions that sharply divide the debate, emphasizing a black-and-white contrast between positions.",
+        "keywords": ["always", "never", "completely", "entirely"],
+        "effect": "Create a sharp dichotomy and enhance contrasts between views.",
+        "example": [
+          "An editorial that declares, 'All politicians are completely untrustworthy,' without acknowledging nuances."
+        ]
+      },
+      {
+        "technique": "'Us vs. Them' Rhetoric",
+        "description": "Explicitly opposing a positively identified group against a negatively defined one, reinforcing collective identity.",
+        "keywords": ["patriots vs. traitors", "progress vs. backwardness", "reformists vs. conservatives"],
+        "effect": "Strengthen group identity and polarize discourse.",
+        "example": [
+          "A commentary that frames societal debates as a struggle between 'us, the enlightened,' and 'them, the detractors.'"
+        ]
+      },
+      {
+        "technique": "Selective Information Bias",
+        "description": "Presenting only specific data points that confirm a predetermined viewpoint while omitting contradictory evidence.",
+        "keywords": ["data omission", "one-sided narrative", "confirmation bias"],
+        "effect": "Steer public opinion toward a predefined perspective.",
+        "example": [
+          "An article that cites only negative economic indicators while ignoring positive trends to argue against current policies."
+        ]
+      }
+    ],
+    "fakeScience": [
+      {
+        "technique": "Lack of Methodological Replicability",
+        "description": "Omitting sufficient details on methodology, preventing independent verification of results and reproducibility of the study.",
+        "keywords": ["no methodological transparency", "insufficient detail", "lack of replicability"],
+        "effect": "Induce skepticism about the robustness and reliability of results.",
+        "example": [
+          "A report touting a 'miraculous cure' without providing detailed experimental procedures or data."
+        ]
+      },
+      {
+        "technique": "Use of Limited Samples",
+        "description": "Selecting small or non-representative study samples, thereby compromising the statistical significance of conclusions.",
+        "keywords": ["small sample size", "limited data", "unrepresentative population"],
+        "effect": "Reduce the validity of the drawn inferences.",
+        "example": [
+          "An article generalizing health benefits from a study that involved only a dozen participants."
+        ]
+      },
+      {
+        "technique": "Misinterpretation of Causality",
+        "description": "Confusing correlation with causation, leading to conclusions not supported by rigorous experimental analysis.",
+        "keywords": ["causation vs. correlation", "false causality", "misleading inference"],
+        "effect": "Mislead readers with conclusions that lack sufficient evidence.",
+        "example": [
+          "A piece asserting that a specific diet cures diseases based solely on coincidental correlations."
+        ]
+      },
+      {
+        "technique": "Use of Misleading Metrics",
+        "description": "Presenting percentages or statistical data in a way that overemphasizes effects without providing proper context.",
+        "keywords": ["relative vs. absolute risk", "misleading statistics", "exaggerated impact"],
+        "effect": "Create an exaggerated perception of effectiveness or harm.",
+        "example": [
+          "An article that boasts an 80% reduction in risk without explaining that the absolute risk remains minimal."
+        ]
+      },
+      {
+        "technique": "Decontextualized Citations",
+        "description": "Presenting scientific data or results out of context to fit a particular agenda.",
+        "keywords": ["out-of-context quotes", "selective scientific reference", "distorted findings"],
+        "effect": "Sensationalize and mislead the audience.",
+        "example": [
+          "A report that quotes a scientist's remark in isolation to support a controversial claim."
+        ]
+      }
+    ],
+    "commonDisinformation": [
+      {
+        "signal": "Emotional Manipulation",
+        "description": "Using sensational language to evoke strong emotions, particularly fear, anger, or suspicion, to manipulate public perception.",
+        "keywords": ["sensationalism", "fearmongering", "alarmist language"],
+        "effect": "Drive emotional responses that override rational analysis.",
+        "example": [
+          "An article that uses phrases like 'imminent catastrophe' or 'unprecedented threat' to evoke fear without substantive evidence."
+        ]
+      },
+      {
+        "signal": "Attack on Opponents' Credibility",
+        "description": "Undermining the credibility of opponents and critics through direct attacks, distortion, and diversion tactics.",
+        "keywords": ["discredit", "smear campaign", "undermine"],
+        "effect": "Weaken trust in opposing viewpoints and reinforce the author's narrative.",
+        "example": [
+          "A report that questions the integrity of a rival expert by emphasizing minor past errors rather than substantive debate."
+        ]
+      },
+      {
+        "signal": "Black-and-white Thinking",
+        "description": "Employing polarizing language that frames issues in a binary manner, where positions are depicted as either entirely good or entirely evil.",
+        "keywords": ["polarization", "dichotomy", "us vs. them"],
+        "effect": "Simplify complex issues into stark contrasts, leaving no room for nuance.",
+        "example": [
+          "An editorial that portrays policy debates as a battle between 'heroes' and 'villains' without acknowledging any gray areas."
+        ]
+      },
+      {
+        "signal": "Weak/Misinterpreted Evidence",
+        "description": "Relying on weak, cherry-picked, or misinterpreted evidence while dismissing credible evidence.",
+        "keywords": ["selective evidence", "cherry-picking", "misinterpretation"],
+        "effect": "Mislead readers by presenting a skewed version of the facts.",
+        "example": [
+          "An article that cites a small, non-representative study as definitive proof of a broader trend."
+        ]
+      }
+    ],
+    "conspiracyTheory": [
+      {
+        "signal": "Secret Plot by Powerful Groups",
+        "description": "Suggesting the existence of a hidden, coordinated effort by influential groups to control events or information.",
+        "keywords": ["hidden agenda", "elite conspiracy", "secret coalition"],
+        "effect": "Foster distrust in established institutions by promoting the idea of covert manipulation.",
+        "example": [
+          "An article implying that a secretive group of elites orchestrates major political events behind the scenes."
+        ]
+      },
+      {
+        "signal": "Nefarious Intent Against Public",
+        "description": "Arguing that a secret group harbors malevolent intentions or an agenda designed to harm the public.",
+        "keywords": ["malevolent agenda", "public harm", "hidden threat"],
+        "effect": "Instill fear and suspicion towards those in power.",
+        "example": [
+          "A report that claims certain policies are part of a deliberate plan to undermine public welfare, without concrete evidence."
+        ]
+      },
+      {
+        "signal": "Persecuted Victims/Heroes",
+        "description": "Framing individuals or groups as either unjustly persecuted victims or heroic figures battling an oppressive system.",
+        "keywords": ["underdog", "martyr", "heroic struggle"],
+        "effect": "Elicit sympathy and rally support by presenting a narrative of victimization or valor.",
+        "example": [
+          "An article portraying a controversial figure as a martyr fighting against a corrupt system, despite lacking balanced evidence."
+        ]
+      },
+      {
+        "signal": "Suppression of Truth by Conspirators",
+        "description": "Advocating that mainstream institutions deliberately hide or suppress critical information to control public perception.",
+        "keywords": ["truth suppression", "hidden facts", "information control"],
+        "effect": "Encourage a belief in alternative narratives by suggesting that the truth is being concealed.",
+        "example": [
+          "A piece claiming that reputable media outlets deliberately omit key facts to protect vested interests."
+        ]
+      },
+      {
+        "signal": "Official Accounts Must Be Wrong",
+        "description": "Positing that the official version of events is fundamentally flawed or deliberately misleading.",
+        "keywords": ["official narrative", "misleading accounts", "distrust official"],
+        "effect": "Undermine trust in governmental or authoritative sources.",
+        "example": [
+          "An article asserting that 'something is inherently wrong' with the government's explanation of an event, without substantiating the claim."
+        ]
+      },
+      {
+        "signal": "Unverified Claims",
+        "description": "Presenting claims that are unfalsifiable or self-sealed, dismissing any evidence against them as part of a larger cover-up.",
+        "keywords": ["unverifiable", "self-sealing", "irrefutable claims"],
+        "effect": "Promote ideas that cannot be disproven, thereby insulating them from scrutiny.",
+        "example": [
+          "A report that makes sweeping assertions about hidden agendas without providing any verifiable sources."
+        ]
+      },
+      {
+        "signal": "Inside Knowledge/Anonymous Insiders",
+        "description": "Claiming access to secret information or relying on anonymous sources to assert the existence of hidden plots.",
+        "keywords": ["insider information", "anonymous source", "exclusive revelation"],
+        "effect": "Enhance credibility of the narrative by invoking secret knowledge, even without corroboration.",
+        "example": [
+          "An article stating that 'anonymous insiders' have revealed details of a covert operation, without disclosing verifiable evidence."
+        ]
+      }
+    ],
+    "trolling": [
+      {
+        "signal": "Exaggerated/Outrageous Claims",
+        "description": "Making highly improbable or extreme statements designed to provoke or mislead readers.",
+        "keywords": ["hyperbole", "extreme claims", "outrageous assertions"],
+        "effect": "Provoke strong reactions and disrupt rational debate.",
+        "example": [
+          "An op-ed that makes implausible claims about an imminent societal collapse without factual support."
+        ]
+      },
+      {
+        "signal": "Off-Topic Comments",
+        "description": "Introducing remarks that divert the conversation away from the central issue, thus disrupting coherent discussion.",
+        "keywords": ["irrelevant", "diversion", "topic derailment"],
+        "effect": "Distract readers from the main subject and dilute the overall argument.",
+        "example": [
+          "A commentary that shifts abruptly to unrelated political anecdotes, undermining the core discussion."
+        ]
+      },
+      {
+        "signal": "Flooding with Posts",
+        "description": "Overwhelming the discourse by saturating it with a large volume of similar messages in a short period.",
+        "keywords": ["content flooding", "over-saturation", "repetitive messages"],
+        "effect": "Drown out opposing views and create an illusion of consensus.",
+        "example": [
+          "A series of op-eds with nearly identical content published within a short time frame to monopolize public debate."
+        ]
+      },
+      {
+        "signal": "Provocation through Insults",
+        "description": "Using subtle yet provocative language to incite reactions, escalating tensions without resorting to explicit vulgarities.",
+        "keywords": ["subtle provocation", "insinuation", "inciting language"],
+        "effect": "Trigger emotional responses and heighten divisiveness.",
+        "example": [
+          "An editorial that uses refined yet cutting remarks to imply that dissenters lack vision, prompting strong reactions."
+        ]
+      }
+    ]
+  }
+  
