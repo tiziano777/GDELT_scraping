@@ -11,11 +11,11 @@ Welcome to the GDELT Text Extraction API project! This API is designed to facili
 
 ## Installation
 
-Go to the project folder and create the following folders:
+Go to the project folder \GDELT_scraping and create the following folders:
 ```bash
-GDELT_scraping> mkdir search_log
-GDELT_scraping> mkdir search_results
-GDELT_scraping> mkdir raw_text_data
+mkdir search_log
+mkdir search_results
+mkdir raw_text_data
 ```
 
 
