@@ -10,6 +10,15 @@ Welcome to the GDELT Text Extraction API project! This API is designed to facili
 - **Simple Automation:** Easily run automated scripts to extract information on specific domains.
 
 ## Installation
+
+Go to the project folder and create the following folders:
+```bash
+GDELT_scraping> mkdir search_log
+GDELT_scraping> mkdir search_results
+GDELT_scraping> mkdir raw_text_data
+```
+
+
 Clone repostory, then run:
 ```bash
 pip install -r requirements.txt
