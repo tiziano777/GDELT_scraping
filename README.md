@@ -22,10 +22,10 @@ You can use the dashboard by running the following command:
 streamlit run DataGatheringDashboard.py
 ```
 
-If you are a programmer and interested in automatic data scraping, modify AutoScraper.py with your customized filters and run:
+If you are  interested in automatic data scraping, modify AutoScraper.py with your customized filters and run:
 
 ```bash
-python DataGatheringDashboard.py
+python AutoScraper.py
 ```
 
 ## Acknowledgments
