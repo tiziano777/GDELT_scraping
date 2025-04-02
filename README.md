@@ -10,9 +10,10 @@ Welcome to the GDELT Text Extraction API project! This API is designed to facili
 - **Simple Automation:** Easily run automated scripts to extract information on specific domains.
 
 ## Installation
-
-*Instructions for installation will go here.*
-
+Clone repostory, then run:
+```bash
+pip install -r requirements.txt
+```
 ## Usage
 
 You can use the dashboard by running the following command:
