@@ -30,7 +30,7 @@ python AutoScraper.py
 
 ## Acknowledgments
 
-*This project includes code from the following repository: [GDELT Doc API](https://github.com/alex9smith/gdelt-doc-api)*.*
+*This project includes code from the following repository: [GDELT Doc API](https://github.com/alex9smith/gdelt-doc-api)*.
 
 
 ## Future Updates
