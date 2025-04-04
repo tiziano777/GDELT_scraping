@@ -1,8 +1,8 @@
 import pandas as pd
 import requests
-import json
 import os
 import trafilatura
+import concurrent.futures
 
 class URLTextProcessor:
     """Classe per la gestione di URL, estrazione di testo, pulizia e salvataggio di link unici."""
@@ -32,7 +32,7 @@ class URLTextProcessor:
         saved_links.to_json(self.memory_file, orient='records', lines=False, force_ascii=False, indent=4)
 
     def _fetch_text_from_url(self, url):
-        """Effettua una richiesta HTTP """
+        """Effettua una richiesta HTTP."""
         try:
             response = requests.get(url, timeout=10)
             response.raise_for_status()
@@ -48,30 +48,43 @@ class URLTextProcessor:
         return None
 
     def _process_texts(self, df):
-        """Estrae e pulisce il testo da una lista di URL."""
-        saved_links = self._load_saved_links()
-        #saved_urls = set(saved_links["url"]) if not saved_links.empty else set()
+        """
+        Estrae e pulisce il testo da una lista di URL parallelizzando le richieste HTTP.
 
+        L'algoritmo distribuisce l'insieme degli URL tra 4 thread, 
+        ottenendo un tempo complessivo approssimativo pari a \( \frac{1}{4}T_{\text{seq}} \) in condizioni ideali.
+        """
+        saved_links = self._load_saved_links()
+        # saved_urls = set(saved_links["url"]) if not saved_links.empty else set()
+
+        # Rimozione dei duplicati basati su "url" e "title"
         df = df.drop_duplicates(subset=["url"]).drop_duplicates(subset=["title"])
 
         new_entries = []
-        for _, row in df.iterrows():
+
+        def process_row(row):
             url, title, language = row["url"], row["title"], row["language"]
-            
             '''
             if url in saved_urls:
-                continue  # Saltiamo gli URL già salvati
+                return None  # Saltiamo gli URL già salvati
             '''
             raw_text = self._fetch_text_from_url(url)
-            #print(raw_text)
             cleaned_text = self._clean_text(raw_text)
-
             if cleaned_text:
-                new_entries.append({"url": url, "title": title, "language": language, "text": cleaned_text})
-            
+                return {"url": url, "title": title, "language": language, "text": cleaned_text}
+            return None
+
+        # Utilizzo di un pool di 4 thread per processare le richieste in parallelo
+        with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+            futures = {executor.submit(process_row, row): row for _, row in df.iterrows()}
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
+                if result is not None:
+                    new_entries.append(result)
+                    
         return new_entries
 
-    def process_links_and_save_extracted_text(self, df):
+    def process_links_save_text_save_link(self, df):
         """Esegue l'intero stack: estrazione, pulizia e salvataggio dei dati."""
         print("Inizio elaborazione e pulizia...")
         new_entries = self._process_texts(df)
@@ -93,4 +106,3 @@ class URLTextProcessor:
             print("Nessun nuovo articolo trovato.")
 
         return new_entries
-

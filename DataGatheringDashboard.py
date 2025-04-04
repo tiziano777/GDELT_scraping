@@ -435,7 +435,7 @@ def main():
         with col3:
             if st.button("Scrape link contents"):
                 link_extractor = URLTextProcessor()
-                link_extractor.process_links_and_save_extracted_text(st.session_state.search_results)
+                link_extractor.process_links_save_text_save_link(st.session_state.search_results)
                 st.success("Contenuti estratti e salvati con successo!")
 
 
