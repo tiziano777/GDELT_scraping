@@ -41,7 +41,3 @@ python AutoScraper.py
 
 *This project includes code from the following repository: [GDELT Doc API](https://github.com/alex9smith/gdelt-doc-api)*.
 
-
-## Future Updates
-
-Parallelization of text extraction from links retrived by GDELT API
