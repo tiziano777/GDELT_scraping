@@ -4,6 +4,8 @@ from datetime import datetime, timedelta
 from URLtextProcessor import URLTextProcessor
 from gdeltdoc import GdeltDoc, Filters
 
+checkpoint_file = "raw_text_data/checkpoint.json"
+
 countries = ['US', 'UK', 'IT']
 themes = [
     "ELECTION", "ELECTION_FRAUD", "HEALTH_VACCINATION", "WB_635_PUBLIC_HEALTH", "TAX_FNCACT_TRAVEL_AGENT",
@@ -20,8 +22,12 @@ limit = 100
 mode = 'artlist'
 order = 'toneabsasc'
 
+#read the checkpoint file
+with open(checkpoint_file, "r") as f:
+    data = json.load(f)
+    
 #YYYYMMDDHHMMSS
-start_timestamp = "20190101120000"
+start_timestamp = data.get("timeend") if data else (datetime.now() - timedelta(days=1)).strftime("%Y%m%d%H%M%S")
 end_timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
 
 def generate_timestamps(start: str, end: str):

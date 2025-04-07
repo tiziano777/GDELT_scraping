@@ -78,9 +78,15 @@ class URLTextProcessor:
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
             futures = {executor.submit(process_row, row): row for _, row in df.iterrows()}
             for future in concurrent.futures.as_completed(futures):
-                result = future.result()
-                if result is not None:
-                    new_entries.append(result)
+                try:
+                    result = future.result()
+                    if result is not None:
+                        new_entries.append(result)
+                except Exception as e:
+                    error_row = futures[future]
+                    error_url = error_row.get("url", "<URL non disponibile>")
+                    print(f"[Errore] URL fallito: {error_url}")
+                    print(f"Errore: {e}")
                     
         return new_entries
 
