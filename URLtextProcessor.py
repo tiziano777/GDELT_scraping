@@ -38,6 +38,7 @@ class URLTextProcessor:
             response.raise_for_status()
             return response.text
         except requests.RequestException:
+            print(f'timeout reached or call failed in: {url}')
             return None
 
     def _clean_text(self, raw_text):
@@ -54,9 +55,7 @@ class URLTextProcessor:
         L'algoritmo distribuisce l'insieme degli URL tra 4 thread, 
         ottenendo un tempo complessivo approssimativo pari a \( \frac{1}{4}T_{\text{seq}} \) in condizioni ideali.
         """
-        saved_links = self._load_saved_links()
-        # saved_urls = set(saved_links["url"]) if not saved_links.empty else set()
-
+        
         # Rimozione dei duplicati basati su "url" e "title"
         df = df.drop_duplicates(subset=["url"]).drop_duplicates(subset=["title"])
 
@@ -64,10 +63,7 @@ class URLTextProcessor:
 
         def process_row(row):
             url, title, language = row["url"], row["title"], row["language"]
-            '''
-            if url in saved_urls:
-                return None  # Saltiamo gli URL già salvati
-            '''
+
             raw_text = self._fetch_text_from_url(url)
             cleaned_text = self._clean_text(raw_text)
             if cleaned_text:

@@ -152,7 +152,7 @@ class GdeltDoc:
             "User-Agent": f"GDELT DOC Python API client {version} - https://github.com/alex9smith/gdelt-doc-api"
         }
 
-        print(f"Querying API with URL: https://api.gdeltproject.org/api/v2/doc/doc?query={query_string}&format=json")
+        #print(f"Querying API with URL: https://api.gdeltproject.org/api/v2/doc/doc?query={query_string}&format=json")
 
         response = requests.get(
             f"https://api.gdeltproject.org/api/v2/doc/doc?query={query_string}&format=json",
