@@ -114,8 +114,28 @@ def save_results_csv():
 
 
 def main():
-    st.title("GDELT API Filter Dashboard")
-    
+    st.markdown("""
+    <style>
+        .main-title {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .subtitle {
+            text-align: left;
+            font-size: 18px;
+            margin-top: 5px;
+            color: #555;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+    # Visualizza il titolo principale centrato
+    st.markdown('<div class="main-title">API Filter Dashboard for Global Database of Events, Language, and Tone (GDELT)</div>', unsafe_allow_html=True)
+
+    # Visualizza il sottotitolo a sinistra
+    st.markdown('<div class="subtitle">Realtime open data global graph, updated every 15 min</div>', unsafe_allow_html=True)
     # Initialize session state variables
     
     if 'country_list' not in st.session_state:
@@ -178,7 +198,7 @@ def main():
     filter_method = st.sidebar.radio("Metodo di filtraggio delle date", ("Intervallo di Date", "Timespan"))
     
     if filter_method == "Intervallo di Date":
-        st.session_state.start_date = st.sidebar.date_input("Data di inizio", st.session_state.get('start_date', datetime.now() - timedelta(days=7)))
+        st.session_state.start_date = st.sidebar.date_input("Data di inizio", st.session_state.get('start_date', datetime.now() - timedelta(days=7) ))
         st.session_state.end_date = st.sidebar.date_input("Data di fine", st.session_state.get('end_date', datetime.now()))
         st.session_state.timespan = None
     else:
@@ -336,8 +356,8 @@ def main():
         
         filters = Filters(
             timespan=st.session_state.timespan if st.session_state.timespan else None,
-            start_date=st.session_state.start_date.strftime("%Y-%m-%d") if st.session_state.start_date else None,
-            end_date=st.session_state.end_date.strftime("%Y-%m-%d") if st.session_state.end_date else None,
+            start_date=st.session_state.start_date.strftime("%Y%m%d%H%M%S") if st.session_state.start_date else None,
+            end_date=st.session_state.end_date.strftime("%Y%m%d%H%M%S") if st.session_state.end_date else None,
             domain=st.session_state.domain_input_list[0] if len(st.session_state.domain_input_list) == 1 else st.session_state.domain_input_list,
             keyword=st.session_state.keyword_list[0] if len(st.session_state.keyword_list) == 1 else st.session_state.keyword_list,
             country=st.session_state.countries[0] if len(st.session_state.countries) == 1 else st.session_state.countries,
@@ -372,8 +392,8 @@ def main():
                 "query_string": st.session_state.query_string,
                 "filter_method": filter_method,
                 "timespan": st.session_state.timespan if st.session_state.timespan else None,
-                "start_date": st.session_state.start_date.strftime("%Y-%m-%d") if st.session_state.start_date else None,
-                "end_date": st.session_state.end_date.strftime("%Y-%m-%d") if st.session_state.end_date else None,
+                "start_date": st.session_state.start_date.strftime("%Y%m%d%H%M%S") if st.session_state.start_date else None,
+                "end_date": st.session_state.end_date.strftime("%Y%m%d%H%M%S") if st.session_state.end_date else None,
                 "domain": st.session_state.domain_input_list[0] if len(st.session_state.domain_input_list) == 1 else st.session_state.domain_input_list,
                 "keywords": st.session_state.keyword_list,
                 "countries": st.session_state.countries,

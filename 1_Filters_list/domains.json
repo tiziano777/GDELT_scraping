@@ -1,751 +1,11 @@
 [
     {
-        "domain": "suedtirolnews.it",
-        "language": "German",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "mirror.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "motori.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "jckonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "normanno.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "markets.financialcontent.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilgiornale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "finanza.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilcrotonese.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "brescia.corriere.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "napolitoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "latimes.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilonghua.sznews.com",
-        "language": "Chinese",
-        "sourcecountry": "China"
-    },
-    {
-        "domain": "fox5atlanta.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "eurasiareview.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "positanonews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "burytimes.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "teatronaturale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "agenzianova.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsone.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "controradio.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ecoaltomolise.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "firenzetoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "irpinianews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nove.firenze.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "counterpunch.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "umbriacronaca.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ragusah24.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilcaffe.tv",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ajc.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "elbrqnews.com",
-        "language": "Arabic",
-        "sourcecountry": "Egypt"
-    },
-    {
-        "domain": "nbclosangeles.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "savonanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "hna.de",
-        "language": "German",
-        "sourcecountry": "Germany"
-    },
-    {
-        "domain": "italiachiamaitalia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "coventrytelegraph.net",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "lavocedivenezia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "thelocal.it",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ifamagazine.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "ilportico.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "arte.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "mariettatimes.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ossolanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "news18.com",
-        "language": "English",
-        "sourcecountry": "India"
-    },
-    {
-        "domain": "creativereview.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "meridiananotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "yenialanya.com",
-        "language": "Turkish",
-        "sourcecountry": "Turkey"
-    },
-    {
-        "domain": "agrigentotv.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilcittadino.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilgiornaledellazio.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tg24.info",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilmartino.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "komando.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "standard.net",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "radioitalia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "thefederalist.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "wthitv.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilgiornaledivicenza.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "pugliapress.org",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "romait.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "washingtonexaminer.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "channel4.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "mynorthwest.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "agoravox.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "crema.laprovinciacr.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "postcourier.com.pg",
-        "language": "English",
-        "sourcecountry": "Papua New Guinea"
-    },
-    {
-        "domain": "umbria24.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "salernonotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "businessonline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tickerreport.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "marigliano.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "liberta.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "noitv.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "yenimeram.com.tr",
-        "language": "Turkish",
-        "sourcecountry": "Turkey"
-    },
-    {
-        "domain": "proiezionidiborsa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "rnz.co.nz",
-        "language": "English",
-        "sourcecountry": ""
-    },
-    {
-        "domain": "rainews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nkytribune.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "sardegnareporter.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "iltempo.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "picusonline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "asianews.it",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "insidermonkey.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "affaritaliani.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "mediaite.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "roma.corriere.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "abendzeitung-muenchen.de",
-        "language": "German",
-        "sourcecountry": "Germany"
-    },
-    {
-        "domain": "alleyoop.ilsole24ore.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tempostretto.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ravennanotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "modernreaders.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "n.yam.com",
-        "language": "Chinese",
-        "sourcecountry": "Taiwan"
-    },
-    {
-        "domain": "larena.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "spoletonline.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "arezzonotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cambstimes.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "gazetteherald.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "antaranews.com",
-        "language": "Indonesian",
-        "sourcecountry": "Indonesia"
-    },
-    {
-        "domain": "cittadellaspezia.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "abruzzonews.eu",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsandstar.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "2anews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "dailymail.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "cosmosmagazine.com",
-        "language": "English",
-        "sourcecountry": "Australia"
-    },
-    {
-        "domain": "thehill.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "bologna2000.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "federginnastica.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tp24.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "meridionews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "373news.com",
-        "language": "Japanese",
-        "sourcecountry": "Japan"
-    },
-    {
-        "domain": "investireoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tecnicadellascuola.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "romatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bristolpost.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "981thehawk.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilrestodelcarlino.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "notiziegeopolitiche.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ntpluscondominio.ilsole24ore.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "finchannel.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "comunicati-stampa.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tomshw.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "modena2000.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newrepublic.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "lettera43.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "oggitreviso.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lastampa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "guernseypress.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "popsci.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "quifinanza.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "palermomania.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quinewspisa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "kitguru.net",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "giornaledellospettacolo.globalist.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ogginotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wallstreetpit.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "galluraoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lecceprima.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bostonglobe.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "marieclaire.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "bigcountry995.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "primapress.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quattroruote.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "qds.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "radioseoul1650.com",
-        "language": "Korean",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "southwalesargus.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "spettacoli.tiscali.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "huffingtonpost.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilcittadinomb.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quicomo.it",
+        "domain": "forzaroma.info",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "torinoggi.it",
+        "domain": "ilsussidiario.net",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -755,84 +15,249 @@
         "sourcecountry": "United States"
     },
     {
-        "domain": "bournemouthecho.co.uk",
+        "domain": "fox35orlando.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wthitv.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "showbiz411.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "thelocal.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "townhall.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lewrockwell.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "laprovinciadivarese.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "primonumero.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "telefonino.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "theboar.org",
         "language": "English",
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "okmugello.it",
+        "domain": "sanremonews.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "freerepublic.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "news4jax.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "avvenire.it",
+        "domain": "quinewspisa.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "ansa.it",
+        "domain": "wantedinrome.com",
         "language": "English",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "forum.juvepoland.com",
-        "language": "Polish",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "milannews.it",
+        "domain": "tp24.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "frontpagemag.com",
+        "domain": "sardegnareporter.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "drapersonline.com",
         "language": "English",
-        "sourcecountry": "United States"
+        "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "gqitalia.it",
+        "domain": "mbnews.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "bolognatoday.it",
+        "domain": "tg.la7.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "toscanamedianews.it",
+        "domain": "mojo4music.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "corrieresalentino.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "corrierecomunicazioni.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
+        "domain": "ntdtv.com",
+        "language": "Chinese",
+        "sourcecountry": "China"
     },
     {
-        "domain": "ionionotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cesenatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "deperu.com",
+        "domain": "eldiariony.com",
         "language": "Spanish",
         "sourcecountry": "United States"
+    },
+    {
+        "domain": "valledaostaglocal.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wnd.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "kaok.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "formiche.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "huffingtonpost.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "stgeorgeutah.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "askanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cataniatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corvallisadvocate.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wattsupwiththat.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "palermomania.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "vglobale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "elvocero.com",
+        "language": "Spanish",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lanuovasardegna.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "modenatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bresciaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ktiv.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "prealpina.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cn24tv.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "winnipegfreepress.com",
+        "language": "English",
+        "sourcecountry": "Canada"
+    },
+    {
+        "domain": "ntplusentilocaliedilizia.ilsole24ore.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wyrk.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "sun-sentinel.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newsone.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "coventrytelegraph.net",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "ogginotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "aise.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
     },
     {
         "domain": "italia-news.it",
@@ -840,227 +265,22 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "mediterranews.org",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "terninrete.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "caranddriver.com",
+        "domain": "scetv.org",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "canosaweb.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "health.tvbs.com.tw",
-        "language": "Chinese",
-        "sourcecountry": "Taiwan"
-    },
-    {
-        "domain": "baritoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "corrierepl.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "inquisitr.com",
+        "domain": "latimes.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "euractiv.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "diyarbakirsoz.com",
-        "language": "Turkish",
-        "sourcecountry": "Turkey"
-    },
-    {
-        "domain": "slate.com",
+        "domain": "kroc.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "lapresse.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilfattoquotidiano.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tulsaworld.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "rstreet.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "deadline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "casertace.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cagliaripad.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "donnamoderna.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ragusanews.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bbc.com",
-        "language": "Vietnamese",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "ondarock.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "zerohedge.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "cleantechnica.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "qz.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "fox35orlando.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "primocanale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newarkadvertiser.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "milano.corriere.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tagesschau.de",
-        "language": "German",
-        "sourcecountry": "Germany"
-    },
-    {
-        "domain": "bari.repubblica.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "smdailyjournal.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "kiplinger.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "northcarolinahealthnews.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "zazoom.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "terzobinario.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilsole24ore.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "heraldscotland.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "forbes.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ildolomiti.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilgiornaledelmolise.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "agensir.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "adnkronos.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "notizie.tiscali.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "gazzettadiparma.it",
+        "domain": "it.blastingnews.com",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -1070,14 +290,184 @@
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "umbriadomani.it",
+        "domain": "giornaledibrescia.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "primaonline.it",
+        "domain": "ilriformista.it",
         "language": "Italian",
         "sourcecountry": "Italy"
+    },
+    {
+        "domain": "mynorthwest.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ibtimes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "senato.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cnr.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "newson6.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "normanno.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "torinotoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "suedtirolnews.it",
+        "language": "German",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ots.at",
+        "language": "German",
+        "sourcecountry": "Austria"
+    },
+    {
+        "domain": "notizie.tiscali.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lastampa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "hwupgrade.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "quotidianodibari.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "news9.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "worldtribune.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "vermontbiz.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "nola.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "alessioporcu.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "mediapost.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "noozhawk.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ondarock.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lapresse.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wncoam.iheart.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lasiritide.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lantidiplomatico.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "eurasiareview.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "triesteprima.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "perugiatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ravennanotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "quicomo.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilgiornaledivicenza.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "proiezionidiborsa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "breitbart.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "presspublications.com",
+        "language": "English",
+        "sourcecountry": "United States"
     },
     {
         "domain": "foxnews.com",
@@ -1085,12 +475,422 @@
         "sourcecountry": "United States"
     },
     {
-        "domain": "spectator.co.uk",
+        "domain": "foggiatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "miragenews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "estense.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "leganerd.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "federginnastica.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "dailystar.co.uk",
         "language": "English",
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "finanza.lastampa.it",
+        "domain": "wcvb.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "perugia24.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "amica.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "6abc.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "varesenews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "abruzzoweb.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "creativereview.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "liberainformazione.org",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "greenme.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "laprovinciapavese.gelocal.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "thejetpress.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "comunicalo.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "fao.org",
+        "language": "Russian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "kitguru.net",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "independent.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "quotidiano.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "qds.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "oggitreviso.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ksl.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "eurweb.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "163.com",
+        "language": "Chinese",
+        "sourcecountry": "China"
+    },
+    {
+        "domain": "senigallianotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "brindisireport.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "olbianotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "imgpress.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "finanza.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "laprovinciacr.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pda.kp.ru",
+        "language": "Russian",
+        "sourcecountry": ""
+    },
+    {
+        "domain": "truthout.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ilgiornale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corriereirpinia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "redstate.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "repubblica.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "abruzzonews.eu",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "italpress.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "udn.com",
+        "language": "Chinese",
+        "sourcecountry": "Taiwan"
+    },
+    {
+        "domain": "gazzettadiparma.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilcrotonese.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "news-gazette.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wkrb13.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "mdjonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newsbusters.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "nkytribune.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "97zokonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "monzatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ictworks.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ilmessaggero.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilonghua.sznews.com",
+        "language": "Chinese",
+        "sourcecountry": "China"
+    },
+    {
+        "domain": "zerohedge.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "4minuti.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "news.fidelityhouse.eu",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "yahoo.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "cagliaripad.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "datacenterdynamics.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "modena2000.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "asianews.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "news-herald.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "northcarolinahealthnews.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "legalinsurrection.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "standardspeaker.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "sheltonherald.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "castellinotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "newsandstar.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "siracusanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "qz.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wkfr.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ferrara24ore.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wsws.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "termometropolitico.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "baochinhphu.vn",
+        "language": "Vietnamese",
+        "sourcecountry": "Vietnam"
+    },
+    {
+        "domain": "virgilio.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilgiorno.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "knac.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ansa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "anconatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "quifinanza.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilcaffe.tv",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "castedduonline.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -1100,52 +900,102 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "themarysue.com",
+        "domain": "timesleader.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "cuneocronaca.it",
+        "domain": "cittadellaspezia.com",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "nuovosud.it",
+        "domain": "notiziegeopolitiche.net",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "fanpage.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cei.int",
+        "domain": "ewrestlingnews.com",
         "language": "English",
-        "sourcecountry": "Italy"
+        "sourcecountry": "United States"
     },
     {
-        "domain": "triesteprima.it",
+        "domain": "dagospia.com",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "corriereadriatico.it",
+        "domain": "huffingtonpost.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "13wmaz.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "belfasttelegraph.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "rollingout.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "euractiv.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "trentotoday.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "varesenews.it",
+        "domain": "guernseypress.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "iltempo.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "parmatoday.it",
+        "domain": "wsvn.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "famigliacristiana.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "24emilia.com",
+        "domain": "newtalk.tw",
+        "language": "Chinese",
+        "sourcecountry": "Taiwan"
+    },
+    {
+        "domain": "cinemaitaliano.info",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "deejay.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "theoaklandpress.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ilsecoloxix.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -1155,7 +1005,167 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "lanuovasardegna.it",
+        "domain": "tecnicadellascuola.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "altarimini.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "guidaviaggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "newsweek.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "maremmanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "demografica.adnkronos.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "forexcrunch.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "baritoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "picusonline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "stroudnewsandjournal.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "salernonotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "antaranews.com",
+        "language": "Indonesian",
+        "sourcecountry": "Indonesia"
+    },
+    {
+        "domain": "advocateanddemocrat.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "quotidianodipuglia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "mediaite.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "canosaweb.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "consortiumnews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bignewsnetwork.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "primocanale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "roanoke.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "yeniazerbaycan.com",
+        "language": "Azerbaijani",
+        "sourcecountry": "Azerbaijan"
+    },
+    {
+        "domain": "ilfoglio.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lrytas.lt",
+        "language": "Lithuanian",
+        "sourcecountry": "Lithuania"
+    },
+    {
+        "domain": "valsassinanews.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "koco.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "thehill.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "riminitoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "unionesarda.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "genovatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilsole24ore.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "canicattiweb.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "keyc.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "casertace.net",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -1170,47 +1180,37 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "comingsoon.it",
+        "domain": "wired.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "themarketsdaily.com",
+        "domain": "cambstimes.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "gamerant.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "udinetoday.it",
+        "domain": "wdsu.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "pelop.gr",
+        "language": "Greek",
+        "sourcecountry": "Greece"
+    },
+    {
+        "domain": "punto-informatico.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "manfredonianews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "formiche.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "radiolombardia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "prealpina.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tecnoandroid.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "gonews.it",
+        "domain": "imperiapost.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -1220,107 +1220,87 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "dailystar.co.uk",
+        "domain": "irishnews.com",
         "language": "English",
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "news.de",
+        "domain": "theyeshivaworld.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "interris.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cosmosmagazine.com",
+        "language": "English",
+        "sourcecountry": "Australia"
+    },
+    {
+        "domain": "ilcittadinomb.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "radioitalia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "trgmedia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "televisionando.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tagesschau.de",
         "language": "German",
         "sourcecountry": "Germany"
     },
     {
-        "domain": "spokesman.com",
+        "domain": "ladigetto.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilmanifesto.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "blesk.cz",
+        "language": "Czech",
+        "sourcecountry": "Czech Republic"
+    },
+    {
+        "domain": "rstreet.org",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "lonestar995fm.com",
+        "domain": "olbianova.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "insidermonkey.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "vermilionstandard.com",
-        "language": "English",
-        "sourcecountry": "Canada"
-    },
-    {
-        "domain": "online-news.it",
+        "domain": "finanza.lastampa.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "abruzzoweb.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsbiella.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "primapaginanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "brindisireport.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ravennatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "diarioviregion.cl",
-        "language": "Spanish",
-        "sourcecountry": "Chile"
-    },
-    {
-        "domain": "hwupgrade.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "santafenewmexican.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "gds.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wkfr.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "wyrk.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "palermotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ansa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ntdtv.com",
-        "language": "Chinese",
-        "sourcecountry": "China"
-    },
-    {
-        "domain": "newson6.com",
+        "domain": "syracuse.com",
         "language": "English",
         "sourcecountry": "United States"
     },
@@ -1330,1012 +1310,12 @@
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "ilsecoloxix.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "anconatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bostonherald.com",
+        "domain": "forcechange.com",
         "language": "English",
         "sourcecountry": "United States"
-    },
-    {
-        "domain": "analisidifesa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "veronaeconomia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "worldtribune.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "madison.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "johnogroat-journal.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "gazzetta.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "novaratoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bellunopress.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "edilportale.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "genovatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "orovillemr.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "themorningsun.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilfattonisseno.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "eurweb.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "casertanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "eldiariony.com",
-        "language": "Spanish",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilroma.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "055firenze.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "modenatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tvguide.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "legavolley.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "corriere.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "forzaroma.info",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "mbnews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "liberainformazione.org",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lasicilia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "penarthtimes.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "news9.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "unita.tv",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tgcom24.mediaset.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "sicilianews24.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cronachemaceratesi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilpescara.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lasentinella.gelocal.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "legalinsurrection.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "stwnewspress.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "timesheraldonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "consortiumnews.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "gazzettadisalerno.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilgazzettino.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "salernotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "yahoo.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "stgeorgeutah.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "vz.lt",
-        "language": "Lithuanian",
-        "sourcecountry": "Lithuania"
-    },
-    {
-        "domain": "variety.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "giornaledibrescia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lasiritide.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "viveresanbenedetto.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
     },
     {
         "domain": "zazoom.it",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "sun-sentinel.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "estense.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "corriereromagna.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "irpiniaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "sgvtribune.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ennapress.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "romadailynews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "floridatrend.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "rollcall.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "foggiatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "97zokonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "paradisepost.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "olbianotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilfriuli.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilcittadinoonline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "pelop.gr",
-        "language": "Greek",
-        "sourcecountry": "Greece"
-    },
-    {
-        "domain": "nursinginpractice.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "pordenoneoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "vanityfair.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quotidianosanita.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "columbian.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "globalist.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nbcnewyork.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ntplusentilocaliedilizia.ilsole24ore.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lrytas.lt",
-        "language": "Lithuanian",
-        "sourcecountry": "Lithuania"
-    },
-    {
-        "domain": "odwyerpr.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "greenme.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wsws.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "notizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "firenzepost.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "businessinsider.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "wjno.iheart.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "investopedia.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "laprovinciacr.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tayyar.org",
-        "language": "Arabic",
-        "sourcecountry": "Lebanon"
-    },
-    {
-        "domain": "castellinotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "kgou.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "vtv.vn",
-        "language": "Vietnamese",
-        "sourcecountry": "Vietnam"
-    },
-    {
-        "domain": "leggo.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "money.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "piacenzasera.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "fanoinforma.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "veneziatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsbeast.gr",
-        "language": "Greek",
-        "sourcecountry": "Greece"
-    },
-    {
-        "domain": "fao.org",
-        "language": "Russian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "furnituretoday.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "vglobale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "siracusaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ansa.it",
-        "language": "Arabic",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "news.xxrb.com.cn",
-        "language": "Chinese",
-        "sourcecountry": "China"
-    },
-    {
-        "domain": "cnr.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "theyeshivaworld.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "quotidianopiemontese.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "burnhamandhighbridgeweeklynews.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "politicamentecorretto.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "askanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lospiffero.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "net.hr",
-        "language": "Croatian",
-        "sourcecountry": "Croatia"
-    },
-    {
-        "domain": "ilmanifesto.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "comunicalo.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "m24.ru",
-        "language": "Russian",
-        "sourcecountry": "Russia"
-    },
-    {
-        "domain": "ksat.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "leccotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lancashiretelegraph.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "liberoquotidiano.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tg.la7.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "warringtonguardian.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "radaronline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "news-gazette.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "newsweek.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "kcci.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "bresciaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "firstonline.info",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "abc7chicago.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "termometropolitico.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "gvwire.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "nationalgeographic.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "insuranceage.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "kxkx.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ferrara24ore.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "studiocataldi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "informamolise.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "canicattiweb.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "forexcrunch.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "pugliain.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "archdaily.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "liguriaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "italiannetwork.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "pjmedia.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "boredpanda.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "13wmaz.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "virgilio.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ligurianotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "texastribune.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "tg24.sky.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ots.at",
-        "language": "German",
-        "sourcecountry": "Austria"
-    },
-    {
-        "domain": "miragenews.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "theoaklandpress.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ildiscorso.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lescienze.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "doanhnhansaigon.vn",
-        "language": "Vietnamese",
-        "sourcecountry": "Vietnam"
-    },
-    {
-        "domain": "quotidianodibari.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "163.com",
-        "language": "Chinese",
-        "sourcecountry": "China"
-    },
-    {
-        "domain": "6abc.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "forlitoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cataniatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "dagospia.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "fai.informazione.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bbc.com",
-        "language": "Russian",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "napoli.repubblica.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "techradar.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "thevision.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "winnipegfreepress.com",
-        "language": "English",
-        "sourcecountry": "Canada"
-    },
-    {
-        "domain": "bergamonews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "iefimerida.gr",
-        "language": "Greek",
-        "sourcecountry": "Greece"
-    },
-    {
-        "domain": "ntplusdiritto.ilsole24ore.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "secoloditalia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "insidebitcoins.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "pressdemocrat.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "943thepoint.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "umbriajournal.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "storm.mg",
-        "language": "Chinese",
-        "sourcecountry": "Madagascar"
-    },
-    {
-        "domain": "foreignpolicy.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "laprovinciapavese.gelocal.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wantedinrome.com",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bbc.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "chedonna.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "mediapost.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "indiewire.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "thereporter.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "televisionando.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "farodiroma.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "belfasttelegraph.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "anna-news.info",
-        "language": "Russian",
-        "sourcecountry": "Ukraine"
-    },
-    {
-        "domain": "giornaledibrescia.it",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "itemlive.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "techxplore.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "news.fidelityhouse.eu",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "manduriaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "econopoly.ilsole24ore.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nautica.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lecconotizie.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "edp24.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "fool.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "pizzamarketplace.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "perugia24.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "today.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "okcfox.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "radioradicale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "sassuolo2000.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -2345,152 +1325,12 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "radiortm.it",
+        "domain": "dire.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "torinotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "truthout.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "vicenzatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "glas-slavonije.hr",
-        "language": "Croatian",
-        "sourcecountry": "Croatia"
-    },
-    {
-        "domain": "corrieresalentino.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "stroudnewsandjournal.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "whittierdailynews.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "met.cittametropolitana.fi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "civonline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "express.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "padovanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "milanotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "news.nate.com",
-        "language": "Korean",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "andriaviva.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "rollingout.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "altarimini.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilpiacenza.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quotidianodiragusa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "piacenza24.eu",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "andrialive.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "blitzquotidiano.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "borsaitaliana.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "chietitoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "shorouknews.com",
-        "language": "Arabic",
-        "sourcecountry": "Egypt"
-    },
-    {
-        "domain": "stardem.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "valledaostaglocal.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsbusters.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "morningstaronline.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "urbanpost.it",
+        "domain": "tecnoandroid.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -2500,94 +1340,19 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "washingtonmonthly.com",
+        "domain": "termolionline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "quotidianodiragusa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "sgvtribune.com",
         "language": "English",
         "sourcecountry": "United States"
-    },
-    {
-        "domain": "aranzulla.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "italpress.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "dha.com.tr",
-        "language": "Turkish",
-        "sourcecountry": "Turkey"
-    },
-    {
-        "domain": "ambienteambienti.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wkrb13.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "bbc.com",
-        "language": "Chinese",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "catanzaroinforma.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nuovaresistenza.org",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "deejay.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "meteoweb.eu",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "pilotonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ansa.it",
-        "language": "Chinese",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lantidiplomatico.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "pupia.tv",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "infooggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "livesicilia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilfoglio.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
     },
     {
         "domain": "shropshirestar.com",
@@ -2595,209 +1360,39 @@
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "neveitalia.it",
+        "domain": "channelcity.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "ilgiorno.it",
+        "domain": "ilcittadinoonline.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "ibtimes.com",
-        "language": "English",
+        "domain": "tg24.info",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "news.nate.com",
+        "language": "Korean",
         "sourcecountry": "United States"
     },
     {
-        "domain": "reggio2000.it",
+        "domain": "health.tvbs.com.tw",
+        "language": "Chinese",
+        "sourcecountry": "Taiwan"
+    },
+    {
+        "domain": "stabiachannel.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "wboc.com",
+        "domain": "warringtonguardian.co.uk",
         "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "senigallianotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nbcphiladelphia.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "monzatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "metropolisweb.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "gravinalife.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "altarezianews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "motori.quotidiano.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "4minuti.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cataniaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wattsupwiththat.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "avantionline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "statoquotidiano.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "citizensvoice.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "rbcasting.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "internazionale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wired.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "genova24.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lavenir.net",
-        "language": "French",
-        "sourcecountry": "Belgium"
-    },
-    {
-        "domain": "laprimapagina.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "economia24ore.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "power96radio.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "imolaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "trevisotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "famigliacristiana.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsminer.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ntacalabria.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "voanews.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "caravan.kz",
-        "language": "Russian",
-        "sourcecountry": "Kazakhstan"
-    },
-    {
-        "domain": "primonumero.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "interris.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "riminitoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "siracusanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "centrepresseaveyron.fr",
-        "language": "French",
-        "sourcecountry": "France"
-    },
-    {
-        "domain": "wnd.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "rurales.elpais.com.uy",
-        "language": "Spanish",
-        "sourcecountry": "Uruguay"
-    },
-    {
-        "domain": "senato.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
+        "sourcecountry": "United Kingdom"
     },
     {
         "domain": "fox7austin.com",
@@ -2805,597 +1400,12 @@
         "sourcecountry": "United States"
     },
     {
-        "domain": "lavocedeltrentino.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "trapanioggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "emiliaromagnanews24.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "teleborsa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "baltimoresun.com",
+        "domain": "smdailyjournal.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "agrigentonotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "topspeed.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "nytimes.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "wabi.tv",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ladigetto.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "html.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "trentotoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ecodibergamo.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "techdirt.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "milanopost.info",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "finance.yahoo.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "tageszeitung.it",
-        "language": "German",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "trgmedia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "pmi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "valsassinanews.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "parmadaily.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "theguardian.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "pressetext.com",
-        "language": "German",
-        "sourcecountry": "Austria"
-    },
-    {
-        "domain": "mdjonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "punto-informatico.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "laopiniondemalaga.es",
-        "language": "Spanish",
-        "sourcecountry": "Spain"
-    },
-    {
-        "domain": "quotidianodipuglia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "luccaindiretta.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "soldionline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lewrockwell.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ideawebtv.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "itv.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "corvallisadvocate.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ictworks.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "italiaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "calabriareportage.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "mojo4music.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "denverpost.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "quibrescia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "maremmanews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "repubblica.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "travelnostop.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "thedailymash.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "kroc.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "sardiniapost.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nuovaresistenza.org",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "spbvedomosti.ru",
-        "language": "Russian",
-        "sourcecountry": "Russia"
-    },
-    {
-        "domain": "cilentonotizie.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "padovaoggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "orvietosi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "elvocero.com",
-        "language": "Spanish",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "datacenterknowledge.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "borsaitaliana.it",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "timesofsandiego.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "pda.kp.ru",
-        "language": "Russian",
-        "sourcecountry": ""
-    },
-    {
-        "domain": "fermanaghherald.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "ynet.co.il",
-        "language": "Hebrew",
-        "sourcecountry": "Israel"
-    },
-    {
-        "domain": "ilmessaggero.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "udn.com",
-        "language": "Chinese",
-        "sourcecountry": "Taiwan"
-    },
-    {
-        "domain": "channelcity.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "guidaviaggi.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "timesofindia.indiatimes.com",
-        "language": "English",
-        "sourcecountry": "India"
-    },
-    {
-        "domain": "mustaqila.com",
-        "language": "Arabic",
-        "sourcecountry": "Iraq"
-    },
-    {
-        "domain": "hookii.org",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "nwaonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "newsitaliane.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilsussidiario.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ilprimatonazionale.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "casertafocus.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bordertelegraph.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "amica.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tusciaweb.eu",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "veronasera.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tviweb.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ladige.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newsday.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ilfoglio.it",
-        "language": "English",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "touringclub.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "drapersonline.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "independent.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "dire.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ildenaro.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lapressa.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "perugiatoday.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cnbc.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "redstate.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "imperiapost.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "bbc.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "breitbart.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "lopinionista.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ottopagine.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ecoseven.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quotidianodifoggia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "castedduonline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "corriereirpinia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wired.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "sempionenews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "lagazzettadelmezzogiorno.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "105.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "broomfieldenterprise.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "iodonna.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quicosenza.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "puglianews24.eu",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "strettoweb.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ildispaccio.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newtalk.tw",
-        "language": "Chinese",
-        "sourcecountry": "Taiwan"
-    },
-    {
-        "domain": "datacenterdynamics.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "greencity.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "dailytribune.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "sassarinotizie.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "laprovinciadivarese.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "olbianova.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "newyorker.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "baochinhphu.vn",
-        "language": "Vietnamese",
-        "sourcecountry": "Vietnam"
-    },
-    {
-        "domain": "newtuscia.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "targatocn.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "themeditelegraph.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "standardspeaker.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "aise.it",
+        "domain": "money.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -3405,214 +1415,49 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "benzinga.com",
+        "domain": "ksat.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "itnewsonline.com",
-        "language": "English",
-        "sourcecountry": "United States"
+        "domain": "diyarbakirsoz.com",
+        "language": "Turkish",
+        "sourcecountry": "Turkey"
     },
     {
-        "domain": "caffeinamagazine.it",
+        "domain": "leccotoday.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "sanfordherald.com",
+        "domain": "tribdem.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "ilmattino.it",
+        "domain": "ilportico.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "ilpost.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "wcvb.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "surysur.net",
-        "language": "Spanish",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "jerseyeveningpost.com",
+        "domain": "oxfordmail.co.uk",
         "language": "English",
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "tuttoggi.info",
+        "domain": "quicosenza.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "telefonino.net",
+        "domain": "rbcasting.com",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "greenstyle.it",
+        "domain": "motori.it",
         "language": "Italian",
         "sourcecountry": "Italy"
-    },
-    {
-        "domain": "macitynet.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "ttgitalia.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "termolionline.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "thebulletin.org",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ivg.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "imgpress.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "eveningnews24.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "laleggepertutti.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "cn24tv.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "unionesarda.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "demografica.adnkronos.com",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "in-dies.info",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "townhall.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "techcrunch.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "asianews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "tech.everyeye.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "corrieredelveneto.corriere.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "sanremonews.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "theboar.org",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "stabiachannel.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "heraldstaronline.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "hudsonvalleycountry.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "tvsette.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "koco.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "ktbs.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "helpconsumatori.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "quotidiano.net",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "zmescience.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "euronews.com",
-        "language": "English",
-        "sourcecountry": "United States"
-    },
-    {
-        "domain": "blesk.cz",
-        "language": "Czech",
-        "sourcecountry": "Czech Republic"
     },
     {
         "domain": "formulapassion.it",
@@ -3620,37 +1465,197 @@
         "sourcecountry": "Italy"
     },
     {
-        "domain": "lasvegassun.com",
+        "domain": "modernreaders.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "lanazione.it",
-        "language": "Italian",
-        "sourcecountry": "Italy"
-    },
-    {
-        "domain": "irishnews.com",
+        "domain": "bournemouthecho.co.uk",
         "language": "English",
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "yeniazerbaycan.com",
-        "language": "Azerbaijani",
-        "sourcecountry": "Azerbaijan"
+        "domain": "vz.lt",
+        "language": "Lithuanian",
+        "sourcecountry": "Lithuania"
     },
     {
-        "domain": "huffingtonpost.co.uk",
+        "domain": "nbcphiladelphia.com",
         "language": "English",
-        "sourcecountry": "United Kingdom"
+        "sourcecountry": "United States"
     },
     {
-        "domain": "lametino.it",
+        "domain": "fanoinforma.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "bignewsnetwork.com",
+        "domain": "investopedia.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "pjmedia.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "939thewolf.iheart.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "pann.nate.com",
+        "language": "Korean",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "insidebitcoins.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ennapress.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "euronews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "mariettatimes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "radaronline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "gds.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "soldionline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "legavolley.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "chicago.suntimes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "tviweb.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nytimes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "rurales.elpais.com.uy",
+        "language": "Spanish",
+        "sourcecountry": "Uruguay"
+    },
+    {
+        "domain": "meridionews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "net.hr",
+        "language": "Croatian",
+        "sourcecountry": "Croatia"
+    },
+    {
+        "domain": "lasicilia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "affaritaliani.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ildenaro.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "broomfieldenterprise.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "odwyerpr.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "eadt.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "okcfox.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "globalist.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "milano.corriere.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "fanpage.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "motori.quotidiano.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "newrepublic.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "leggo.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "baltimoresun.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "linkiesta.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "themarketsdaily.com",
         "language": "English",
         "sourcecountry": "United States"
     },
@@ -3660,32 +1665,1467 @@
         "sourcecountry": "Italy"
     },
     {
+        "domain": "oregonlive.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "alleyoop.ilsole24ore.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "forum.juvepoland.com",
+        "language": "Polish",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "umbriacronaca.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "trapanioggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "hna.de",
+        "language": "German",
+        "sourcecountry": "Germany"
+    },
+    {
+        "domain": "lonestar995fm.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "standard.net",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ilfattoquotidiano.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "altroquotidiano.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nove.firenze.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "primapaginanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "teatronaturale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "power96radio.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "liberoquotidiano.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ntplusdiritto.ilsole24ore.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lavocedeltrentino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tulsaworld.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "udinetoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "arte.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "edilportale.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ambienteambienti.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pordenoneoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "gonews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "spotlightnews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "tuttoggi.info",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tayyar.org",
+        "language": "Arabic",
+        "sourcecountry": "Lebanon"
+    },
+    {
+        "domain": "themiamihurricane.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wbir.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "magaze.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "studiocataldi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ntpluscondominio.ilsole24ore.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "slate.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "2anews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "foreignpolicy.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "thedailymash.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "rollcall.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "helpconsumatori.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "notizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "spectator.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "businessinsider.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "latina24ore.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "24emilia.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "reggio2000.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "chedonna.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "calabriareportage.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nuovaresistenza.org",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "itemlive.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "noitv.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nwaonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "mykisscountry937.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "kimatv.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "express.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "caranddriver.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ildispaccio.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cuneocronaca.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "news.xxrb.com.cn",
+        "language": "Chinese",
+        "sourcecountry": "China"
+    },
+    {
+        "domain": "fermanaghherald.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "fox13news.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "gazzettadisalerno.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "livesicilia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "theindependent.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "padovaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "napoli.repubblica.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "today.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "floridatrend.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newarkadvertiser.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "parmadaily.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "laopiniondemalaga.es",
+        "language": "Spanish",
+        "sourcecountry": "Spain"
+    },
+    {
+        "domain": "hookii.org",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilpost.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "us103.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "agrigentonotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "giornaledellospettacolo.globalist.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "calcoastnews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "kmxt.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "in-dies.info",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ragusanews.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "boredpanda.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "statoquotidiano.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ntacalabria.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "gazetteherald.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "fox5ny.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "y969.iheart.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "piacenza24.eu",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "targatocn.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "comunicati-stampa.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "texastribune.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ligurianotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nbclosangeles.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "thewestmorlandgazette.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "emiliaromagnanews24.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "maritimeprofessional.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "online-news.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "agrigentotv.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "timesofsandiego.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newsminer.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "anna-news.info",
+        "language": "Russian",
+        "sourcecountry": "Ukraine"
+    },
+    {
+        "domain": "aspendailynews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wiltsglosstandard.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "firstonline.info",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "borsaitaliana.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "greenstyle.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "primaonline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ottopagine.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pizzamarketplace.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "tvsette.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ecodibergamo.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "mediterranews.org",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lescienze.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lecconotizie.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cataniaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wired.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "heraldscotland.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "aol.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ttgitalia.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "silive.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "santafenewmexican.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "055firenze.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "urbanpost.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cicloweb.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "met.cittametropolitana.fi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nbcnewyork.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "corrierepl.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corriereromagna.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "johnogroat-journal.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "ecoaltomolise.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "sardiniapost.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "puglianews24.eu",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "themorningsun.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "kiplinger.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "economia24ore.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lopinionista.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corrieredelveneto.corriere.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wjno.iheart.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "vicenzatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lecceprima.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "inquisitr.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "milanopost.info",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "quotidianodifoggia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "radiortm.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "quotidianopiemontese.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "genova24.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wcyy.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "laleggepertutti.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "informamolise.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilfriuli.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "madison.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bellunopress.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "doanhnhansaigon.vn",
+        "language": "Vietnamese",
+        "sourcecountry": "Vietnam"
+    },
+    {
+        "domain": "caravan.kz",
+        "language": "Russian",
+        "sourcecountry": "Kazakhstan"
+    },
+    {
+        "domain": "bostonherald.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "napolitoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lospiffero.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilgazzettino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "forlitoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
         "domain": "opinione.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "eadt.co.uk",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "cinemaitaliano.info",
+        "domain": "sicilianews24.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "news.sky.com",
-        "language": "English",
-        "sourcecountry": "United Kingdom"
-    },
-    {
-        "domain": "alessioporcu.it",
+        "domain": "aranzulla.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "ilriformista.it",
+        "domain": "veronaeconomia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nuovosud.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "umbria24.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "981thehawk.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "diarioviregion.cl",
+        "language": "Spanish",
+        "sourcecountry": "Chile"
+    },
+    {
+        "domain": "373news.com",
+        "language": "Japanese",
+        "sourcecountry": "Japan"
+    },
+    {
+        "domain": "edition.cnn.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "zazoom.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "irpinianews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "asianews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pressdemocrat.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "sempionenews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "finchannel.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "fairfieldsuntimes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "quattroruote.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "greencity.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corriere.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tgcom24.mediaset.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "galluraoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "newsbiella.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "siracusaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "milannews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "controradio.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bbc.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "ragusah24.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "techxplore.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lagazzettadelmezzogiorno.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "eveningnews24.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "hudsonvalleycountry.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "torinoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wsfa.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "glas-slavonije.hr",
+        "language": "Croatian",
+        "sourcecountry": "Croatia"
+    },
+    {
+        "domain": "ansa.it",
+        "language": "Chinese",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "piacenzasera.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilcittadino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ossolanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "iodonna.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "jerseyeveningpost.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "fox34.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "cleantechnica.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newtuscia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ansa.it",
+        "language": "Arabic",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "travelnostop.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "burnhamandhighbridgeweeklynews.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "yenialanya.com",
+        "language": "Turkish",
+        "sourcecountry": "Turkey"
+    },
+    {
+        "domain": "n.yam.com",
+        "language": "Chinese",
+        "sourcecountry": "Taiwan"
+    },
+    {
+        "domain": "943thepoint.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "markets.financialcontent.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "nautica.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilprimatonazionale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "fai.informazione.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "gqitalia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "gvwire.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "penarthtimes.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "civonline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "giornaledibrescia.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "kxkx.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "agenzianova.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tageszeitung.it",
+        "language": "German",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "econopoly.ilsole24ore.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "andrialive.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "washingtonexaminer.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "neveitalia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "radiolombardia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "orovillemr.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "tech.everyeye.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "spbvedomosti.ru",
+        "language": "Russian",
+        "sourcecountry": "Russia"
+    },
+    {
+        "domain": "mirror.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "romadailynews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "gravinalife.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ideawebtv.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cesenatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "dailytribune.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ifamagazine.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "ilfoglio.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "theguardian.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "newyorker.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wallstreetpit.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "spoletonline.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "italiachiamaitalia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "indiewire.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "rnz.co.nz",
+        "language": "English",
+        "sourcecountry": ""
+    },
+    {
+        "domain": "farodiroma.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ravennatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "dailymail.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "pressetext.com",
+        "language": "German",
+        "sourcecountry": "Austria"
+    },
+    {
+        "domain": "billboard.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "news4jax.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "donnamoderna.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "brescia.corriere.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nursinginpractice.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "tomshw.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "salernotoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "dha.com.tr",
+        "language": "Turkish",
+        "sourcecountry": "Turkey"
+    },
+    {
+        "domain": "bbc.com",
+        "language": "Chinese",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "counterpunch.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "vanityfair.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "italiannetwork.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "trevisotoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ktbs.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "thebulletin.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ipwatchdog.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lancashiretelegraph.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "casertanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "padovanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "edp24.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "tempostretto.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "slashgear.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ilroma.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "italiaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "storm.mg",
+        "language": "Chinese",
+        "sourcecountry": "Madagascar"
+    },
+    {
+        "domain": "orangeobserver.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "laprimapagina.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bari.repubblica.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "veronasera.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "yorknewstimes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "wboc.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "umbriajournal.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "crema.laprovinciacr.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "milanotoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "manfredonianews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nbcmontana.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "deperu.com",
+        "language": "Spanish",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "921theticket.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ildolomiti.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "kyma.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "postcourier.com.pg",
+        "language": "English",
+        "sourcecountry": "Papua New Guinea"
+    },
+    {
+        "domain": "980waav.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "frontpagemag.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "quibrescia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lapressa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pupia.tv",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ionionotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilpiacenza.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
@@ -3695,17 +3135,987 @@
         "sourcecountry": "United Kingdom"
     },
     {
-        "domain": "leganerd.com",
+        "domain": "okmugello.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     },
     {
-        "domain": "wsvn.com",
+        "domain": "ilmartino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "roma.corriere.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "vermilionstandard.com",
+        "language": "English",
+        "sourcecountry": "Canada"
+    },
+    {
+        "domain": "heraldstaronline.com",
         "language": "English",
         "sourcecountry": "United States"
     },
     {
-        "domain": "linkiesta.it",
+        "domain": "finance.yahoo.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "news.sky.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "marigliano.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "furnituretoday.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "talkradio960.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "whittierdailynews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "caffeinamagazine.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "romait.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "kgou.org",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "agoravox.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "andhrajyothy.com",
+        "language": "Telugu",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bigcountry995.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "cronachemaceratesi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "altarezianews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "andriaviva.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "html.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "novaratoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "themeditelegraph.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "palermotoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "orvietosi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lettera43.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corriereadriatico.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pugliain.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "m24.ru",
+        "language": "Russian",
+        "sourcecountry": "Russia"
+    },
+    {
+        "domain": "radioradicale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "popsci.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "meteoweb.eu",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilmattino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "surysur.net",
+        "language": "Spanish",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "citizensvoice.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "chicagotribune.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "twincities.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "cnbc.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "firenzetoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "elbrqnews.com",
+        "language": "Arabic",
+        "sourcecountry": "Egypt"
+    },
+    {
+        "domain": "blitzquotidiano.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilfattonisseno.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "iefimerida.gr",
+        "language": "Greek",
+        "sourcecountry": "Greece"
+    },
+    {
+        "domain": "fox5atlanta.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "tvguide.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "hot1047.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newsbeast.gr",
+        "language": "Greek",
+        "sourcecountry": "Greece"
+    },
+    {
+        "domain": "benzinga.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "sanfordherald.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "techcrunch.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ansa.it",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "1019bigwaax.iheart.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "channel4.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "romatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bolognatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilpescara.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "sassuolo2000.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilgiornaledellazio.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "newsitaliane.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "agensir.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "comingsoon.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "politicamentecorretto.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "mustaqila.com",
+        "language": "Arabic",
+        "sourcecountry": "Iraq"
+    },
+    {
+        "domain": "deadline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "vtv.vn",
+        "language": "Vietnamese",
+        "sourcecountry": "Vietnam"
+    },
+    {
+        "domain": "freerepublic.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ynet.co.il",
+        "language": "Hebrew",
+        "sourcecountry": "Israel"
+    },
+    {
+        "domain": "avvenire.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ilrestodelcarlino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "firenzepost.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "katu.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "chietitoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "paradisepost.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "morningstaronline.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "strettoweb.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "savonanews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "manduriaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "positanonews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "altaz933.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "thevision.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ivg.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "lavocedivenezia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "columbian.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "rainews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "thefederalist.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "abendzeitung-muenchen.de",
+        "language": "German",
+        "sourcecountry": "Germany"
+    },
+    {
+        "domain": "teleborsa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "insuranceage.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "spokesman.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "techdirt.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "fool.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "newsday.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "parmatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "radioseoul1650.com",
+        "language": "Korean",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "terzobinario.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bbc.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "sassarinotizie.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "toscanamedianews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bordertelegraph.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "quotidianosanita.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nuovaresistenza.org",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "metropolisweb.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "centrepresseaveyron.fr",
+        "language": "French",
+        "sourcecountry": "France"
+    },
+    {
+        "domain": "adnkronos.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "gazzetta.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "nationalgeographic.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "stwnewspress.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "techradar.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "avantionline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "investireoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "unita.tv",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "cilentonotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "businessonline.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "imolaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "analisidifesa.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "casertafocus.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ajc.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "pilotonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "cei.int",
+        "language": "English",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "denverpost.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "infooggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "southwalesargus.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "lanazione.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bergamonews.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tusciaweb.eu",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "liguriaoggi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "larena.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "variety.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "moddb.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "topspeed.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "datacenterknowledge.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "stardem.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "luccaindiretta.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "secoloditalia.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "bologna2000.com",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "macitynet.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "jckonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "voanews.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bbc.com",
+        "language": "Russian",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "wsoctv.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "borsaitaliana.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "yenimeram.com.tr",
+        "language": "Turkish",
+        "sourcecountry": "Turkey"
+    },
+    {
+        "domain": "ildiscorso.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "komando.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "terninrete.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "tg24.sky.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "spettacoli.tiscali.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "shorouknews.com",
+        "language": "Arabic",
+        "sourcecountry": "Egypt"
+    },
+    {
+        "domain": "themarysue.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "news.de",
+        "language": "German",
+        "sourcecountry": "Germany"
+    },
+    {
+        "domain": "mlb.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "tickerreport.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bbc.com",
+        "language": "Vietnamese",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "news18.com",
+        "language": "English",
+        "sourcecountry": "India"
+    },
+    {
+        "domain": "umbriadomani.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ecoseven.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "eonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "meridiananotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "wktv.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "viveresanbenedetto.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "archdaily.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lavenir.net",
+        "language": "French",
+        "sourcecountry": "Belgium"
+    },
+    {
+        "domain": "105.net",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "burytimes.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "marieclaire.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "internazionale.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pugliapress.org",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "forbes.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "timesofindia.indiatimes.com",
+        "language": "English",
+        "sourcecountry": "India"
+    },
+    {
+        "domain": "veneziatoday.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ladige.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "arezzonotizie.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "ibtimes.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "wabi.tv",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bostonglobe.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lametino.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "1011now.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "ilgiornaledelmolise.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "pmi.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "corrierecomunicazioni.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "catanzaroinforma.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "sandiegouniontribune.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "bristolpost.co.uk",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "timesheraldonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "itv.com",
+        "language": "English",
+        "sourcecountry": "United Kingdom"
+    },
+    {
+        "domain": "liberta.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "itnewsonline.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "abc7chicago.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lasvegassun.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "zmescience.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "kcci.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "washingtonmonthly.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "lasentinella.gelocal.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "primapress.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "thereporter.com",
+        "language": "English",
+        "sourcecountry": "United States"
+    },
+    {
+        "domain": "touringclub.it",
+        "language": "Italian",
+        "sourcecountry": "Italy"
+    },
+    {
+        "domain": "irpiniaoggi.it",
         "language": "Italian",
         "sourcecountry": "Italy"
     }
