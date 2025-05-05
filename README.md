@@ -7,7 +7,9 @@ Welcome to the GDELT Text Extraction API project! This API is designed to facili
 - **Streamlined Interface:** Adjust your search by tone, language, keywords, repetitions, and more.
 - **Search Saving:** Save your searches and found links for easy future access.
 - **JSON Extraction:** Extract text related to GDELT links in JSON format for advanced analysis.
+- **Human JSON Annotation:** Streamlined Infterface allow manual annotation for misinformation/disinformation signals.
 - **Simple Automation:** Easily run automated scripts to extract information on specific domains.
+- **Auto-annotation:** Easily run automated annotations on Extracted Data with local LLM support.
 
 ## Installation
 
@@ -16,6 +18,7 @@ Go to the project folder \GDELT_scraping and create the following folders:
 mkdir search_log
 mkdir search_results
 mkdir raw_text_data
+mkdir annotated_data
 ```
 
 

@@ -1,3 +1,14 @@
 streamlit
 pandas
 trafilatura
+rapidfuzz
+fuzzywuzzy
+python-Levenshtein
+spacy
+nltk
+json_repair
+ijson
+langgraph
+pydantic
+langchain_community
+#https://python.langchain.com/docs/integrations/llms/llamacpp/

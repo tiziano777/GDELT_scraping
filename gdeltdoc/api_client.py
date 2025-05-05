@@ -166,4 +166,9 @@ class GdeltDoc:
         if "text/html" in response.headers["content-type"]:
             raise ValueError(f"The query was not valid. The API error message was: {response.text.strip()}, the API endpoint is: \n  https://api.gdeltproject.org/api/v2/doc/doc?query={query_string}&format=json")
         
-        return load_json(response.content.decode("utf-8"), self.max_depth_json_parsing)
+        try:
+            result = load_json(response.content.decode("utf-8"), self.max_depth_json_parsing)
+            return result
+        except ValueError:
+            print("JSON parsing failed, trying again with a higher max depth")
+            return {}

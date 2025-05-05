@@ -1,3 +1,8 @@
 search_log/
 search_results/
 raw_text_data/
+annotated_data/
+annotation_agent/
+EDA/topic/
+EDA/articles.jsonl
+1_Filters_list/domains.json

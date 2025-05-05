@@ -37,8 +37,8 @@ class URLTextProcessor:
             response = requests.get(url, timeout=10)
             response.raise_for_status()
             return response.text
-        except requests.RequestException:
-            print(f'timeout reached or call failed in: {url}')
+        except requests.exceptions.RequestException as e:
+            #print(f'timeout reached or call failed in: {e}')
             return None
 
     def _clean_text(self, raw_text):

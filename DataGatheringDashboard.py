@@ -1,8 +1,9 @@
 import streamlit as st
 from gdeltdoc import GdeltDoc, Filters, near, repeat
 import pandas as pd
+import datetime 
 import json
-import os
+import os, re
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
 from URLtextProcessor import URLTextProcessor
@@ -110,7 +111,6 @@ def save_results_csv():
     st.session_state.search_results.to_csv(filename, index=False)
     st.session_state.csv_filename = filename
     st.session_state.csv_saved = True
-
 
 
 def main():
@@ -340,8 +340,8 @@ def main():
                     st.write(f'Tono Assoluto Selezionato: {st.session_state.toneabs}')
 
     # Sezione Numero di Record
-    with st.expander("Numero di Record"):
-        st.session_state.num_records = st.number_input("Numero di record", min_value=75, max_value=250, value=st.session_state.get('num_records', 250))
+    with st.expander("Numero di Record (Min. 25 Max. 250)"):
+        st.session_state.num_records = st.number_input("Numero di record", min_value=25, max_value=250, value=st.session_state.get('num_records', 250))
 
 
     # Search button logic
@@ -451,13 +451,158 @@ def main():
                         file_name=os.path.basename(st.session_state.csv_filename),
                         mime="text/csv"
                     )
-        
+                    
         with col3:
             if st.button("Scrape link contents"):
-                link_extractor = URLTextProcessor()
+                if not st.session_state.timespan:
+                    link_extractor = URLTextProcessor(
+                        memory_file=f"raw_text_data/user_search_{st.session_state.start_date.strftime('%Y%m%d%H%M%S')}_{st.session_state.end_date.strftime('%Y%m%d%H%M%S')}.json"
+                    )
+                else:
+                    link_extractor = URLTextProcessor(
+                        memory_file=f"raw_text_data/user_search_{st.session_state.timespan}.json"
+                    )
+
                 link_extractor.process_links_save_text_save_link(st.session_state.search_results)
+                st.session_state.extracted_file = link_extractor.memory_file
                 st.success("Contenuti estratti e salvati con successo!")
 
+        
+        # Caricamento e visualizzazione degli articoli
+        if 'extracted_file' in st.session_state and os.path.exists(st.session_state.extracted_file):
+            with open(st.session_state.extracted_file, 'r', encoding='utf-8') as f:
+                articles = json.load(f)
 
+                if isinstance(articles, list) and all(isinstance(a, dict) for a in articles):
+                    title_to_doc = {article["title"].strip(): article for article in articles}
+                    titles = list(title_to_doc.keys())
+
+                    st.subheader("📚 Seleziona gli articoli da esplorare:")
+                    selected_titles = st.multiselect("Titoli disponibili:", titles)
+
+                    st.subheader("🧠 Seleziona la modalità di annotazione")
+                    annotation_mode = st.radio(
+                        "Come vuoi procedere con l'annotazione?",
+                        ("Manuale", "Automatica con LLM"),
+                        key="annotation_mode"
+                    )
+
+                    for title in selected_titles:
+                        cols = st.columns([0.85, 0.15])
+                        with cols[0]:
+                            st.markdown(f"### 📰 {title}")
+                        with cols[1]:
+                            is_clickbait = st.checkbox("Clickbait?", key=f"clickbait_{title}")
+
+                        if "annotations" not in st.session_state:
+                            st.session_state.annotations = {}
+                        if title not in st.session_state.annotations:
+                            st.session_state.annotations[title] = {}
+                        st.session_state.annotations[title]["clickbait"] = int(is_clickbait)
+
+                        doc = title_to_doc[title]
+                        with st.expander(f"Visualizza contenuto estratto per: {title}", expanded=False):
+                            st.markdown(f"**🔗 URL:** [{doc['url']}]({doc['url']})")
+                            st.markdown(f"**🌍 Lingua:** {doc.get('language', 'Non specificata')}")
+                            st.markdown("---")
+
+                            st.markdown("**✍️ Modifica il contenuto estratto (se necessario):**")
+                            modified_text = st.text_area("Testo estratto:", doc['text'], height=300, key=f"modified_text_{title}")
+
+                            if modified_text != doc['text']:
+                                st.session_state.annotations[title]["modified_text"] = modified_text
+                                st.success("Testo aggiornato con successo!")
+
+                        # == Generazione automatica ==
+                        if annotation_mode == "Automatica con LLM" and "llm_generated" not in st.session_state.annotations[title]:
+                            # TODO:
+                            # Prepara il prompt semplificato per clickbait e disinfo signals
+                            # Chiamata al tuo LLM locale (es. llama.cpp)
+                            # llm_clickbait_output = llama_cpp(prompt_clickbait + titolo_articolo)
+                            # llm_clickbait_output = llama_cpp(prompt_disinfo + text)
+                            
+                            # Esempio simulato:
+                            llm_clickbait_output = {"clickbait": True}
+                            # Salva il risultato come flag binario
+                            st.session_state.annotations[title]["clickbait"] = int(llm_clickbait_output["clickbait"])
+                            # Eventualmente anche altre annotazioni testuali
+                            st.session_state.annotations[title]["spans"] = [
+                                {"text": "Esempio LLM: frase 1", "tag": "manipolazione emotiva"}
+                            ]
+
+                            st.session_state.annotations[title]["llm_generated"] = True
+                            st.success("✅ Annotazioni generate e valutazione clickbait completata.")
+
+                        # == Interfaccia di annotazione sempre visibile ==
+                        st.markdown("## 🖋️ Aggiungi annotazione testuale")
+
+                        annotation_text = st.text_area("🔍 Segmento di testo da annotare:", height=150, key=f"annotation_text_{title}")
+                        tag_label = st.selectbox("🏷️ Tipo di disinformazione", [
+                            "trolling", "pseudoscience", "discredit", "polarization", "hate_speech","racist", "sexist", "toxic_speech","conspiracy"
+                        ], key=f"tag_{title}")
+
+                        if st.button("➕ Aggiungi annotazione", key=f"add_ann_{title}"):
+                            if annotation_text.strip():
+                                if "spans" not in st.session_state.annotations[title]:
+                                    st.session_state.annotations[title]["spans"] = []
+                                st.session_state.annotations[title]["spans"].append({
+                                    "text": annotation_text.strip(),
+                                    "tag": tag_label
+                                })
+                                st.success(f"Annotazione aggiunta: [{tag_label}] “{annotation_text.strip()}”")
+                            else:
+                                st.error("❌ Devi inserire un segmento di testo per l'annotazione.")
+
+                        # == Visualizzazione annotazioni correnti ==
+                        if title in st.session_state.annotations:
+                            st.markdown("### 🧾 Annotazioni correnti:")
+
+                            clickbait_flag = st.session_state.annotations[title].get("clickbait", "N/A")
+                            st.markdown(f"- 🏷️ **Clickbait**: {'✅ Sì' if clickbait_flag == 1 else '❌ No'}")
+
+                            for i, ann in enumerate(st.session_state.annotations[title].get("spans", [])):
+                                col1, col2 = st.columns([0.9, 0.1])
+                                with col1:
+                                    st.markdown(f"{i+1}. **{ann['tag']}** – \"{ann['text']}\"")
+                                with col2:
+                                    if st.button(f"❌", key=f"remove_{title}_{i}"):
+                                        del st.session_state.annotations[title]["spans"][i]
+                                        st.success("Annotazione rimossa con successo!")
+
+                    # ---- Salvataggio annotazioni ----
+                    st.markdown("---")
+                    st.subheader("📦 Salvataggio annotazioni")
+
+                    if st.button("💾 Esporta tutto in JSON annotato"):
+                        if "annotations" in st.session_state:
+                            annotated_data = []
+
+                            for title, ann in st.session_state.annotations.items():
+                                article = title_to_doc.get(title, {})
+                                annotated_data.append({
+                                    "title": title,
+                                    "url": article.get("url", ""),
+                                    "language": article.get("language", "N/A"),
+                                    "text": ann.get("modified_text", article.get("text", "")),
+                                    "clickbait": ann.get("clickbait", 0),
+                                    "annotations": ann.get("spans", [])
+                                })
+
+                            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                            output_file = f"annotated_data/user_annotated_articles_{timestamp}.json"
+                            with open(output_file, "w", encoding="utf-8") as f:
+                                json.dump(annotated_data, f, indent=2, ensure_ascii=False)
+
+                            st.success(f"✅ Dati esportati con successo in `{output_file}`")
+                            st.download_button(
+                                label="📥 Scarica il file JSON",
+                                data=json.dumps(annotated_data, indent=2, ensure_ascii=False),
+                                file_name=output_file,
+                                mime="application/json"
+                            )
+                        else:
+                            st.warning("⚠️ Nessuna annotazione trovata da esportare.")
+                else:
+                    st.info("⚠️ Nessun file caricato per la visualizzazione. Assicurati di aver completato la fase di scraping.")
 if __name__ == "__main__":
     main()
