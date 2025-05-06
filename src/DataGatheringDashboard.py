@@ -6,7 +6,7 @@ import json
 import os, re
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
-from URLtextProcessor import URLTextProcessor
+from src.URLtextProcessor import URLTextProcessor
 
 def load_json_list(filename):
     try:

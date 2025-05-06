@@ -149,7 +149,7 @@ def remove_duplicates_inplace(file_path):
                 title = doc.get('title', '')
 
                 # Verifica se il documento è un duplicato
-                if url in seen_urls or any(fuzz.ratio(title, seen_title) >= 95 for seen_title in seen_titles):
+                if url in seen_urls or title in seen_titles:
                     continue  # Salta il documento se è un duplicato
 
                 seen_urls.add(url)
@@ -160,7 +160,7 @@ def remove_duplicates_inplace(file_path):
                 continue
 
     # Sovrascrive il file con i documenti unici
-    with open(file_path, 'w', encoding='utf-8') as outfile:
+    with open(file_path+'_unique', 'w', encoding='utf-8') as outfile:
         for doc in unique_documents:
             json.dump(doc, outfile, ensure_ascii=False)
             outfile.write("\n")

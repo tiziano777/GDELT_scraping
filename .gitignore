@@ -1,8 +1,8 @@
-search_log/
-search_results/
-raw_text_data/
+src/search_log/
+src/search_results/
+src/raw_text_data/
 annotated_data/
 annotation_agent/
-EDA/topic/
-EDA/articles.jsonl
-1_Filters_list/domains.json
+src/EDA/topic/
+src/EDA/articles.jsonl
+src/1_Filters_list/domains.json

@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 from datetime import datetime, timedelta
-from URLtextProcessor import URLTextProcessor
+from src.URLtextProcessor import URLTextProcessor
 from gdeltdoc import GdeltDoc, Filters
 
 checkpoint_file = "raw_text_data/checkpoint.json"
