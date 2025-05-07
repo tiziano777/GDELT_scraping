@@ -3,7 +3,7 @@ from gdeltdoc import GdeltDoc, Filters, near, repeat
 import pandas as pd
 import datetime 
 import json
-import os, re
+import os
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
 from src.URLtextProcessor import URLTextProcessor

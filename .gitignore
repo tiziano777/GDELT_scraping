@@ -1,8 +1,7 @@
 src/search_log/
 src/search_results/
 src/raw_text_data/
-annotated_data/
-annotation_agent/
 src/EDA/topic/
 src/EDA/articles.jsonl
+src/EDA/articles_deduplicated.jsonl
 src/1_Filters_list/domains.json
