@@ -4,10 +4,13 @@ import json
 from typing import List, Dict, Generator, Any
 
 # --- Configurazioni ---
+
 ALLOWED_LANGUAGES = {'English', 'Italian'}
 INPUT_DIRECTORY = '../raw_text_data'
 OUTPUT_FILE = './articles.jsonl'
+DEDUPLICATED_OUTPUT_FILE = './articles_deduplicated.jsonl'
 FILENAME_REGEX = re.compile(r'^\d{14}_\d{14}\.json$')
+
 
 # --- Funzioni Modulari ---
 
@@ -74,8 +77,38 @@ def process_directory(input_dir: str, output_file: str) -> None:
                 valid_documents.append(processed_document)
         save_documents(valid_documents, output_file)
 
+def deduplicate_jsonl(input_path: str, output_path: str):
+    seen_urls = set()
+    seen_titles = set()
+    unique_entries = []
+
+    with open(input_path, 'r', encoding='utf-8') as infile:
+        for line in infile:
+            try:
+                entry = json.loads(line)
+                url = entry.get("url")
+                title = entry.get("title")
+
+                # Se già visto l'url o il title, salta
+                if url in seen_urls or title in seen_titles:
+                    continue
+
+                seen_urls.add(url)
+                seen_titles.add(title)
+                unique_entries.append(entry)
+            except json.JSONDecodeError as e:
+                print(f"Errore di parsing JSON: {e}")
+
+    with open(output_path, 'w', encoding='utf-8') as outfile:
+        for entry in unique_entries:
+            json.dump(entry, outfile, ensure_ascii=False)
+            outfile.write('\n')
+
+    print(f"Rimossi duplicati. Totale articoli unici: {len(unique_entries)}")
+
 # --- Entry Point ---
 
 if __name__ == '__main__':
     process_directory(INPUT_DIRECTORY, OUTPUT_FILE)
+    deduplicate_jsonl(OUTPUT_FILE, DEDUPLICATED_OUTPUT_FILE)
     

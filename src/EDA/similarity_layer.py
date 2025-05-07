@@ -1,11 +1,9 @@
 import json
 import spacy
-import os
 import re
-from fuzzywuzzy import fuzz
 
 # === CONFIGURAZIONE ===
-INPUT_FILE = "articles.jsonl"
+INPUT_FILE = "articles_deduplicated.jsonl"
 THRESHOLD = 20
 
 OUTPUT_FILES = {
@@ -16,6 +14,8 @@ OUTPUT_FILES = {
 
 LANGUAGES = {'italian', 'english'}
 BAD_DOMAINS = ["https://www.zazoom.it/"]
+
+
 
 # === CARICAMENTO MODELLI spaCy ===
 nlp_it = spacy.load("it_core_news_sm", disable=["ner"])
@@ -135,37 +135,7 @@ def should_exclude_document(doc):
             return True
     return False
 
-def remove_duplicates_inplace(file_path):
-    """Rimuove i duplicati nel file JSONL basato su URL o titolo."""
-    seen_urls = set()
-    seen_titles = set()
-    unique_documents = []
-
-    with open(file_path, 'r', encoding='utf-8') as infile:
-        for line in infile:
-            try:
-                doc = json.loads(line)
-                url = doc.get('link', '')
-                title = doc.get('title', '')
-
-                # Verifica se il documento è un duplicato
-                if url in seen_urls or title in seen_titles:
-                    continue  # Salta il documento se è un duplicato
-
-                seen_urls.add(url)
-                seen_titles.add(title)
-                unique_documents.append(doc)
-
-            except json.JSONDecodeError:
-                continue
-
-    # Sovrascrive il file con i documenti unici
-    with open(file_path+'_unique', 'w', encoding='utf-8') as outfile:
-        for doc in unique_documents:
-            json.dump(doc, outfile, ensure_ascii=False)
-            outfile.write("\n")
-
-    print(f"Duplicati rimossi nel file: {file_path}")
+# === MAIN ===
 
 def main():
     keyword_sets = create_keyword_sets()
@@ -211,10 +181,6 @@ def main():
     print(f"Documenti rilevanti salvati: {relevant}")
     for cat, file in OUTPUT_FILES.items():
         print(f"{cat}: file -> {file}")
-
-    # Rimuovi i duplicati da ogni file di output
-    for cat, file in OUTPUT_FILES.items():
-        remove_duplicates_inplace(file)
 
 if __name__ == "__main__":
     main()
