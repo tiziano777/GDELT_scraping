@@ -1,25 +1,137 @@
+# --- Import ---
+import os
+import re
 import json
 import spacy
-import re
+from typing import List, Dict, Generator, Any
 
-# === CONFIGURAZIONE ===
-INPUT_FILE = "articles_deduplicated.jsonl"
+# --- Config: Preprocessing ---
+ALLOWED_LANGUAGES = {'English', 'Italian'}
+INPUT_DIRECTORY = '../raw_text_data'
+OUTPUT_FILE = './articles.jsonl'
+DEDUPLICATED_OUTPUT_FILE = './articles_deduplicated.jsonl'
+FILENAME_REGEX = re.compile(r'^\d{14}_\d{14}\.json$')
+
+# --- Config: Classification ---
 THRESHOLD = 20
-
 OUTPUT_FILES = {
     'elezioni': "topic/election_articles.jsonl",
-    'vaccini': "topic/vax_articles.jsonl",
-    #'pubblica_amministrazione': "topic/PA_articles.jsonl"
+    'vaccini': "topic/vax_articles.jsonl"
 }
-
 LANGUAGES = {'italian', 'english'}
 BAD_DOMAINS = ["https://www.zazoom.it/"]
 
+def should_exclude_document(doc):
+    """Verifica se il dominio del link (o una parte dell'URL) è uno dei domini da scartare."""
+    link = doc.get('url', '')
+    for domain in BAD_DOMAINS:
+        # Usa regex per il matching parziale del dominio nel link
+        if domain in link:
+            return True
+    return False
 
 
-# === CARICAMENTO MODELLI spaCy ===
+# --- spaCy Models ---
 nlp_it = spacy.load("it_core_news_sm", disable=["ner"])
 nlp_en = spacy.load("en_core_web_sm", disable=["ner"])
+
+# --- Funzioni Preprocessing  ---
+
+def list_valid_files(directory: str) -> List[str]:
+    """
+    Restituisce tutti i percorsi di file validi nella directory che rispettano il pattern.
+    """
+    return [
+        os.path.join(directory, filename)
+        for filename in os.listdir(directory)
+        if FILENAME_REGEX.match(filename)
+    ]
+
+def read_documents(filepath: str) -> Generator[Dict[str, Any], None, None]:
+    """
+    Generatore che itera sui documenti JSON all'interno di un file.
+    """
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        if not isinstance(data, list):
+            raise ValueError(f"Il file {filepath} non contiene una lista di documenti.")
+        for document in data:
+            yield document
+
+def is_valid_language(document: Dict[str, Any]) -> bool:
+    """
+    Controlla se il documento ha un campo 'language' ammesso.
+    """
+    language = document.get('language')
+    return language in ALLOWED_LANGUAGES
+
+def preprocess_document(document: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Esegue preprocessing su un documento (attualmente identità).
+    """
+    # Qui si possono aggiungere trasformazioni future
+    return document
+
+def save_documents(documents: List[Dict[str, Any]], output_path: str) -> None:
+    """
+    Salva una lista di documenti nel file di output in formato JSONL.
+    Assicurandosi che venga aperto in modalità append per non sovrascrivere i dati precedenti.
+    """
+    # Creiamo il file se non esiste, ma non lo sovrascriviamo mai
+    file_exists = os.path.exists(output_path)
+    with open(output_path, 'a', encoding='utf-8') as f:
+        # Se il file non esiste ancora, scriviamo l'intestazione o solo i dati senza intestazione
+        if not file_exists:
+            pass  # non è necessario scrivere nulla, i dati vengono solo appesi.
+        for doc in documents:
+            json_line = json.dumps(doc, ensure_ascii=False)
+            f.write(json_line + '\n')
+
+def process_directory(input_dir: str, output_file: str) -> None:
+    """
+    Processo principale: legge, filtra, preprocessa e scrive.
+    """
+    files = list_valid_files(input_dir)
+    for filepath in files:
+        valid_documents = []
+        for document in read_documents(filepath):
+            if is_valid_language(document):
+                processed_document = preprocess_document(document)
+                valid_documents.append(processed_document)
+        save_documents(valid_documents, output_file)
+        os.remove(filepath)
+
+def deduplicate_jsonl(input_path: str, output_path: str):
+    seen_urls = set()
+    seen_titles = set()
+    unique_entries = []
+
+    with open(input_path, 'r', encoding='utf-8') as infile:
+        for line in infile:
+            try:
+                entry = json.loads(line)
+                url = entry.get("url")
+                title = entry.get("title")
+
+                # Se già visto l'url o il title, salta
+                if url in seen_urls or title in seen_titles or should_exclude_document(entry):
+                    continue
+
+                seen_urls.add(url)
+                seen_titles.add(title)
+                unique_entries.append(entry)
+            except json.JSONDecodeError as e:
+                print(f"Errore di parsing JSON: {e}")
+
+    with open(output_path, 'a', encoding='utf-8') as outfile:
+        for entry in unique_entries:
+            json.dump(entry, outfile, ensure_ascii=False)
+            outfile.write('\n')
+
+    print(f"Rimossi duplicati. Totale articoli unici: {len(unique_entries)}")
+
+
+# --- Funzioni Classificazione (seconda parte) ---
 
 def create_keyword_sets():
     """
@@ -104,8 +216,6 @@ def create_keyword_sets():
     },
 '''
 
-# === FUNZIONI ===
-
 def get_doc_language(doc):
     """Restituisce la lingua del documento (italiano o inglese)."""
     return doc.get("language", "").lower()
@@ -113,6 +223,9 @@ def get_doc_language(doc):
 def lemmatize(text, lang):
     """Lemmatizza il testo in base alla lingua."""
     nlp = nlp_it if lang == "italian" else nlp_en
+    if len(text) > 1000000:
+        return []
+    
     doc = nlp(text)
     return [token.lemma_.lower() for token in doc if not token.is_stop and token.is_alpha]
 
@@ -126,25 +239,13 @@ def score_document(lemmas, keyword_sets):
         scores[category] = score
     return scores
 
-def should_exclude_document(doc):
-    """Verifica se il dominio del link (o una parte dell'URL) è uno dei domini da scartare."""
-    link = doc.get('link', '')
-    for domain in BAD_DOMAINS:
-        # Usa regex per il matching parziale del dominio nel link
-        if re.search(re.escape(domain), link):
-            return True
-    return False
 
-# === MAIN ===
-
-def main():
+def classify_documents():
     keyword_sets = create_keyword_sets()
-
-    # Creazione dei file di output in modalità scrittura
-    output_writers = {cat: open(fname, 'w', encoding='utf-8') for cat, fname in OUTPUT_FILES.items()}
+    output_writers = {cat: open(fname, 'a', encoding='utf-8') for cat, fname in OUTPUT_FILES.items()}
     total, relevant = 0, 0
 
-    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
+    with open(DEDUPLICATED_OUTPUT_FILE, 'r', encoding='utf-8') as f:
         for line in f:
             total += 1
             try:
@@ -152,28 +253,21 @@ def main():
             except json.JSONDecodeError:
                 continue
 
-            # Controllo della lingua
             lang = get_doc_language(doc)
             if lang not in LANGUAGES:
                 continue
-
-            # Filtro in base al link
             if should_exclude_document(doc):
                 continue
 
-            # Lemmatizzazione del testo
             full_text = (doc.get("title", "") + " " + doc.get("text", "")).strip()
             lemmas = lemmatize(full_text, lang)
             scores = score_document(lemmas, keyword_sets)
-
-            # Categoria con il punteggio massimo
             best_topic = max(scores, key=scores.get)
             if scores[best_topic] >= THRESHOLD:
                 json.dump(doc, output_writers[best_topic], ensure_ascii=False)
                 output_writers[best_topic].write("\n")
                 relevant += 1
 
-    # Chiudere i file di output
     for writer in output_writers.values():
         writer.close()
 
@@ -182,5 +276,8 @@ def main():
     for cat, file in OUTPUT_FILES.items():
         print(f"{cat}: file -> {file}")
 
-if __name__ == "__main__":
-    main()
+# --- Entry Point ---
+if __name__ == '__main__':
+    process_directory(INPUT_DIRECTORY, OUTPUT_FILE)
+    deduplicate_jsonl(OUTPUT_FILE, DEDUPLICATED_OUTPUT_FILE)
+    classify_documents()
