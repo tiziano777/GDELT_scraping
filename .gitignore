@@ -6,3 +6,4 @@ src/EDA/articles.jsonl
 src/EDA/articles_deduplicated.jsonl
 src/1_Filters_list/domains.json
 src/__pycache__/
+gdelt_env/

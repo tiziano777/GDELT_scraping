@@ -17,6 +17,15 @@ Welcome to the **GDELT Text Extraction API** project — a toolkit designed to s
 
 ## ⚙️ Installation
 
+Clone the repository, create venv and install dependencies:
+
+```bash
+git clone https://github.com/tiziano777/GDELT_scraping
+cd GDELT_scraping
+python -m venv gdelt_env
+pip install -r requirements.txt
+```
+
 Navigate to the `GDELT_scraping` root directory and create the following subfolders:
 
 ```bash
@@ -25,14 +34,6 @@ mkdir src/search_results
 mkdir src/raw_text_data
 mkdir src/annotated_data
 mkdir src/EDA/topic
-```
-
-Then, clone the repository and install dependencies:
-
-```bash
-git clone <repo_url>
-cd GDELT_scraping
-pip install -r requirements.txt
 ```
 
 ---

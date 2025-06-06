@@ -5,3 +5,5 @@ rapidfuzz
 spacy
 matplotlib
 seaborn
+yake
+lxml_html_clean
