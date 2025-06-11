@@ -169,12 +169,6 @@ class URLTextProcessor:
 
         return new_entries
 
-    def process_links_and_extract_text(self, df):
-        """Esegue l'intero stack: estrazione, pulizia e salvataggio dei dati. Simile a process_links_save_text_save_link ma forse senza salvare per uso immediato."""
-        # Questa funzione sembra essere un duplicato di process_links_save_text_save_link
-        # È meglio tenerne una sola o assicurare funzionalità distinte.
-        return self.process_links_save_text_save_link(df)
-
     def fetch_and_process_single_url(self, url: str):
         """
         Scarica, pulisce ed estrae testo, titolo e lingua da un singolo URL.

@@ -71,7 +71,7 @@ for i in range(len(sequence) - 1):
                 articles = gd.article_search(filters)
                 if not articles.empty:
                     link_extractor = URLTextProcessor()
-                    extracted_content = pd.DataFrame(link_extractor.process_links_and_extract_text(articles))
+                    extracted_content = pd.DataFrame(link_extractor.process_links_save_text_save_link(articles))
                     
                     chunck=pd.concat([chunck, extracted_content], ignore_index=True)
                     chunck.drop_duplicates(subset=["url"]).drop_duplicates(subset=["title"])

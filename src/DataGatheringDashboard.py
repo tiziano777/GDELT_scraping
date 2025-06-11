@@ -1,7 +1,7 @@
 import streamlit as st
 from gdeltdoc import GdeltDoc, Filters, near, repeat
 import pandas as pd
-import datetime 
+import datetime
 import json
 import os
 from urllib.parse import urlparse
