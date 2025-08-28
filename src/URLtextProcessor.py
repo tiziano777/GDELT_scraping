@@ -50,7 +50,6 @@ class URLTextProcessor:
             print(f"ERRORE: Impossibile salvare i link in {self.memory_file}: {e}")
             traceback.print_exc() # Stampa lo stack trace completo
 
-
     def _fetch_text_from_url(self, url):
         """Effettua una richiesta HTTP."""
         try:
@@ -70,7 +69,6 @@ class URLTextProcessor:
             print(f'ERRORE GENERICO in _fetch_text_from_url per URL: {url} - {e}')
             traceback.print_exc() # Stampa lo stack trace completo
             return None
-
 
     def _clean_text_and_extract_metadata(self, raw_html, url):
         """
@@ -112,7 +110,6 @@ class URLTextProcessor:
             print(f"ERRORE TRAFILATURA: Eccezione durante l'estrazione con Trafilatura per URL: {url} - {e}")
             traceback.print_exc()
             return None, None, None
-
 
     def _process_texts(self, df):
         """

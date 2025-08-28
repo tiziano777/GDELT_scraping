@@ -405,7 +405,7 @@ def display_home_page():
     if st.sidebar.button("Add Keyword") and keyword_input.strip():
         keyword_input = keyword_input.strip()
         if keyword_input not in st.session_state.keyword_list:
-            st.session_state.keyword_list.append(keyword_input)
+            st.session_state.keyword_list.append(str(keyword_input))
             st.sidebar.success(f"Aggiunto: {keyword_input}")
 
     # Visualizza la lista delle keyword con la possibilità di rimuoverle
