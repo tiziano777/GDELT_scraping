@@ -7,7 +7,7 @@ import os
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
 from URLtextProcessor import URLTextProcessor # Assicurati che questa classe esista
-from keyword_extractor import get_keywords_from_article # Importa il nuovo modulo
+from keyword_utils import get_keywords_from_article
 
 # --- Funzioni di utilità ---
 def load_json_list(filename):

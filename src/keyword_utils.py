@@ -7,17 +7,8 @@ import re
 # python -m spacy download it_core_news_sm
 # python -m spacy download en_core_web_sm
 
-try:
-    nlp_it = spacy.load("it_core_news_sm")
-except OSError:
-    print("Download it_core_news_sm model for spaCy: python -m spacy download it_core_news_sm")
-    exit()
-
-try:
-    nlp_en = spacy.load("en_core_web_sm")
-except OSError:
-    print("Download en_core_web_sm model for spaCy: python -m spacy download en_core_web_sm")
-    exit()
+nlp_it = spacy.load("it_core_news_sm")
+nlp_en = spacy.load("en_core_web_sm")
 
 def get_nlp_pipeline(lang: str):
     if lang.lower() == 'it':
